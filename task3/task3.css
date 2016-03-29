@@ -1,0 +1,46 @@
+body{
+    background:url("images/icon-background.png");
+}
+#container{
+    margin: auto;
+    width: auto;
+}
+.header{
+    background: url("images/icon-back.png");
+    width: 54px;
+    height: 54px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.logo{
+    background: url("images/icon-logo.png");
+    width: 181px;
+    height: 70px;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.3em;
+    color: white;
+    line-height: 200%;
+    letter-spacing: inherit;
+}
+.foot-left{
+    margin-top: 5em;
+    float:left;
+    width: 50%;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+.foot-right{
+    margin-top: 5em;
+    float: left;
+    width: 50%;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
