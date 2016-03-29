@@ -10,14 +10,7 @@ body{
     height: 39px;
     width: auto;
 }
-.single{
-    margin-top: 1em ;
-    margin-left: 1em;
-}
-.app{
-    margin-top: 1em;
 
-}
 #top{
     background: url("images/task3_02.png");
     height: 88px;
@@ -30,13 +23,11 @@ body{
 .logo{
     width: 181px;
     height: 70px;
-    margin-top: 7em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 .introduction{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     font-size: 1.3em;
     color: white;
     line-height: 200%;
