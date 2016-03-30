@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 body{
     background-color:rgb(104,205,213)
@@ -9,7 +9,7 @@ body{
     background: url("images/task3_011.png");
     height: 39px;
     width: 100%;
-    margin: 0px;
+    margin: 0;
 }
 #header .position3{
     float: left;
@@ -33,6 +33,9 @@ body{
     font-size: 300%;
     color: white;
 }
+a.color1:link{color: white ; text-decoration:none;} /*常规时候的样式*/
+a.color1:visited{color: white; text-decoration:none;} /*鼠标指上去的样式*/
+a.color1:hover {color: white; text-decoration:underline;} /*访问过后的样式*/
 #top h1{
     font-size: 200%;
     color: white;
