@@ -9,15 +9,34 @@ body{
     background: url("images/task3_01.png");
     height: 39px;
     width: auto;
+    margin: 0px;
+    background-repeat: no-repeat;
 }
-
 #top{
     background: url("images/task3_02.png");
     height: 88px;
     width: auto;
 }
+#top .position1{
+    float:left;
+    margin-left: .5em;
+    margin-top: .3em;
+    font-size: 300%;
+    color: white;
+}
+#top h1{
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    line-height:231%;
+}
+#top .position2{
+    float:right;
+    margin-top:-2.5em;
+    margin-right: 1em;
+}
 .back{
-    margin-left: 2em;
+    margin-left: 1.5em;
     margin-top: 1em;
 }
 .logo{
