@@ -1,59 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>网页标题</title>
-    <meta name="keywords" content="关键字列表" />
-    <meta name="description" content="网页描述" />
-    <link rel="stylesheet" type="text/css" href="" />
-    <style type="text/css">
-        h1,span,a,img,p {margin:0;padding:0;}
-        a {text-decoration:none;color:#fff;}
-        img {border:none;vertical-align:middle;}
-        #box{width:100%;height:100%;color:white;margin:0 auto;max-width:640px;overflow:hidden;}
-        #header{background:black;width:100%;overflow:hidden;}
-        #header a{display:inline-block;line-height:2.4em;}
-        #header .return{float:left;margin-right:-15%;}
-        #header .more{float:right;margin-top:-1.5em;}
-        #header h1{width:100%;text-align:center;font-size:110%;line-height:231%;}
-        #header .return img{width:28%;}
-        #header .more img{width:80%;}
-        #main{background:#70ac98;width:100%;}
-        #main .main_mid{text-align:center;width:100%;margin:0 -1em;}
-        #main .main_top img{width:2em;}
-        #main .main_mid img{width:6em;}
-        #main .main_foot{margin:10% 27%;}
-        #main .main_foot span{font-size:116%;}
-        #content {overflow:hidden;margin:0 0;padding-bottom: 25%;}
-        #content .co{float:left;padding-left:15%;}
-        #content .co img{width:77%;}
-        #content .co p{}
-        #content .ptt{float:right;padding-right:15%;}
-        #content .ptt img{width:77%;}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>混合布局</title>
+    <style>
+        body{ margin:0; padding:0; font-size:30px; font-weight:bold}
+        div{ text-align:center; line-height:50px}
+        .top{ height:100px;background:#9CF}
+        .head,.main{ width:960px;text-align: center}
+        .head{ height:100px; background:#F90}
+        .left{ width:220px; height:600px; background:#ccc; float: left}
+        .right{ width:740px; height:600px;background:#FCC; float:right}
+        .r_sub_left{ width:540px; height:600px; background:#9C3; float:left}
+        .r_sub_right{ width:200px; height:600px; background:#9FC; float: right}
+        .footer{ height:50px; background:#9F9; clear: both}
     </style>
 </head>
-<body style="height:100%;">
-<div id="box">
-    <div id="header">
-        <div class="return"><img src="task3/images/task3_06.png" alt="返回"/><a href="#" >返回</a></div>
-        <h1>魔镜</h1>
-        <div class="more"><img src="task3/images/" /></div>
-    </div>
-    <div id="main">
-        <div class="main_top">
-            <img src="task3/images/icon-back.png"/>
-        </div>
-        <div class="main_mid">
-            <img src="task3/images/icon-logo.png"/>
-        </div>
-        <div class="main_foot">
-            <span>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</span>
-        </div>
-        <div id="content">
-            <div class="co"><img src="task3/images/icon-foot-left.png"/><p>290560933</p></div>
-            <div class="ptt"><img src="task3/images/icon-foot-right.png"/><p>BJPTTeng</p></div>
-        </div>
-    </div>
 
+<body>
+<div class="top">
+    <div class="head">head</div>
+</div>
+<div class="main">
+    <div class="left">left</div>
+    <div class="right">
+        <div class="r_sub_left">sub_left
+        </div>
+        <div class=" r_sub_right">sub_right
+        </div>
+    </div>
+</div>
+<div class="footer">footer</div>
 </body>
 </html>

@@ -1,9 +1,22 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
 }
 #header{
     background-color: rgb(95,192,205);
     height:40px;
     width: 100%;
+}
+.left{position: absolute;left: 0;top: 0}
+.center{text-align: center}
+.right{position: absolute;right: 0;top: 0}
+.top{
+    background-color: rgb(95,192,205);
+    padding: .7em;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }
