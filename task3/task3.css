@@ -6,11 +6,20 @@ body{
     background-color:rgb(104,205,213)
 }
 #header{
-    background: url("images/task3_01.png");
+    background: url("images/task3_011.png");
     height: 39px;
-    width: auto;
+    width: 100%;
     margin: 0px;
-    background-repeat: no-repeat;
+}
+#header .position3{
+    float: left;
+}
+#header .position4{
+    text-align: center;
+}
+#header .position5{
+    float: right;
+    margin-top: -2.5em;
 }
 #top{
     background: url("images/task3_02.png");
@@ -19,7 +28,7 @@ body{
 }
 #top .position1{
     float:left;
-    margin-left: .5em;
+    margin-left: -4.5em;
     margin-top: .3em;
     font-size: 300%;
     color: white;
