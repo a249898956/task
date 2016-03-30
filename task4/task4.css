@@ -1,0 +1,9 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+#header{
+    background-color: rgb(95,192,205);
+    height:40px;
+    width: 100%;
+}
