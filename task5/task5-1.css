@@ -17,3 +17,10 @@ h1{
     text-align: center;
     color: white;
 }
+.background{
+    background: url("images/background.png");
+    width: 100%;
+    padding: 10% 0;
+    background-size: cover;
+    overflow: hidden;
+}
