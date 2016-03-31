@@ -2,28 +2,44 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html" charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="task4.css">
     <title>网页登陆界面</title>
 </head>
 <body>
 <div id="header">
-     <div class="left"><img src="images/top-left.png"></div>
-     <div class="center"><img src="images/top-center.png"></div>
-    <div class="right"><img src="images/top-right.png" ></div>
+    <div class="left"><img src="images/top-left.png"></div>
+    <div class="center"><img src="images/top-center.png"></div>
+    <div class="right"><img src="images/top-right.png"></div>
 </div>
-<div id="container">
-    <div class="top">
-        <span style="float: left">关闭</span>
-        <span>登陆</span>
-        <span style="float: right">注册</span>
+<div class="top">
+    <span style="float: left">关闭</span>
+    <span>登陆</span>
+    <span style="float: right">注册</span>
+</div>
+<div class="input">
+    <div class="input1">
+        <form>
+            <img src="images/iphone.png">
+            <input type="text" name="number" placeholder="请输入手机号" >
+        </form>
     </div>
-    <div class="input">
-
+    <div class="input2">
+        <form>
+            <img src="images/lock.png">
+            <input type="password" name="lock" placeholder="请输入密码" >
+        </form>
     </div>
 </div>
 <div id="footer">
-
+    <form>
+        <button type="submit">
+            <span>登陆</span>
+        </button>
+    </form>
+</div>
+<div class="forget">
+    <a href="http://www.baidu.com" title="忘记密码" target="_blank">忘记密码？</a>
 </div>
 </body>
 </html>
