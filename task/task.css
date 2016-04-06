@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 320px) {
+    html{
+        font-size: 40%;
+    }
+}/*当屏幕宽度小于480px时，自动调整字体大小*/
+body{
+    background: url("images/icon-background.jpg") no-repeat;
+    margin: 5%;
+    width: 100%;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    font-size: 1.9rem;
+    background: none;
+}
+a{
+    text-decoration:none;
+}
+a:hover {
+    color:red;
+}  /*鼠标划过连接显示的颜色*/
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}

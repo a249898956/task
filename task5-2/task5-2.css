@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background: lightgreen;
+}
+body {
+    width: 100%;
+    font-size: 3.2rem;
+    min-width: 320px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
+#top{
+    background: #5fc0ce;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+#top .button{
+    float: left;
+    width: 100%;
+}
+#top .button .employer{
+    background: #51a8b4;
+    font-size: 3.2rem;
+    margin: 2% 0;
+    padding: 1% 2% 1% 1%;
+    border: none;
+    border-radius: 5%;
+    color: white;
+}
+#top .button .nurse{
+    background: white;
+    font-size: 3.2rem;
+    margin-left: -3.5%;
+    padding: 1%;
+    border: none;
+    border-radius: 5%;
+    color: #5fc0ce;
+}
+#top .top-address{
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    width: 5%;
+}
+#content{
+    background: white;
+    display: block;
+}
+#content .choose{
+    border-bottom: 1px solid #e1e5e7;
+}
+form{
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    line-height: 5rem;
+    float: left;
+}
+/*为choose清除height:0，结合html使用*/
+.clearDiv {
+    clear: both;
+}
+select{
+    font-size: 2.5rem;
+    border: none;
+    color: #999;
+}
+#content .choose .order{
+    border-right: 1px solid #e1e5e7;
+    border-left: 1px solid #e1e5e7;
+}
+#content .main .middle{
+    margin-left: 8%;
+}
+#content .last{
+    border-bottom: none;
+}
+ul{
+    color: #999;
+    border-bottom: 1px solid #e1e5e7;
+}
+li{
+    margin-left: 3%;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+li .view{
+    margin-right: 5%;
+    float: right;
+    margin-top:.8%;
+}
+li .price{
+    color: red;
+    float: right;
+    margin-right: 5%;
+}
+li .time{
+    color: black;
+}
+#footer{
+    background: #f8fafb;
+    font-size: 2.5rem;
+    border-top: 1px solid #e1e5e7;
+}
+#footer .footer-left{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+#footer .footer-left .home{
+    display: block;
+    color: #5fc0ce;
+}
+#footer .footer-middle{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+#footer .footer-middle img{
+    border-radius: 50%;
+}
+#footer .footer-right{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+#footer .footer-right .mine{
+    display: block;
+    color: #999;
+}
+
