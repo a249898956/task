@@ -9,8 +9,11 @@
 }/*当屏幕宽度小于480px时，自动调整字体大小*/
 body{
     background: url("images/icon-background.jpg") no-repeat;
-    margin: 5%;
     width: 100%;
+    background-size: cover;
+}
+.content{
+    margin: 3%;
 }
 button{
     margin: 1rem;
