@@ -32,6 +32,13 @@ img{
     height: 5em;
     width: 100%;
 }
+input{
+    width: 85%;
+    margin-left: 1em;
+    border: none;
+    border-left: solid rgb(239,240,244);
+    height: 3em;
+}
 .input1 img{
     vertical-align: middle;
 }

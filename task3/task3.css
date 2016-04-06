@@ -1,54 +1,23 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background-color:rgb(104,205,213)
 }
 #header{
-    background: url("images/task3_011.png");
+    background: url("images/task3_01.png");
     height: 39px;
-    width: 100%;
-    margin: 0;
+    width: auto;
 }
-#header .position3{
-    float: left;
-}
-#header .position4{
-    text-align: center;
-}
-#header .position5{
-    float: right;
-    margin-top: -2.5em;
-}
+
 #top{
     background: url("images/task3_02.png");
     height: 88px;
     width: auto;
 }
-#top .position1{
-    float:left;
-    margin-left: -4.5em;
-    margin-top: .3em;
-    font-size: 300%;
-    color: white;
-}
-a.color1:link{color: white ; text-decoration:none;} /*常规时候的样式*/
-a.color1:visited{color: white; text-decoration:none;} /*鼠标指上去的样式*/
-a.color1:hover {color: white; text-decoration:underline;} /*访问过后的样式*/
-#top h1{
-    font-size: 200%;
-    color: white;
-    text-align: center;
-    line-height:231%;
-}
-#top .position2{
-    float:right;
-    margin-top:-2.5em;
-    margin-right: 1em;
-}
 .back{
-    margin-left: 1.5em;
+    margin-left: 2em;
     margin-top: 1em;
 }
 .logo{
