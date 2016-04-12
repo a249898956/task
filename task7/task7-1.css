@@ -11,6 +11,7 @@ body {
     font-size: 1.6rem;
     min-width: 320px;
     margin: 0 auto;
+    background-color: #29bde0;
 }
 img {
     max-width: 100%;
@@ -33,26 +34,29 @@ header span{
     margin-left:10%;
 }
 header ul{
-    position: relative;
-    display: inline-block;
+    margin-right: 10%;
+    float: right;
 }
 header li{
-    margin: 5%;
-    background-image: url("images/spritesheet.png");
+    margin-left: 22px;
     display: inline-block;
-    width: 25px;
-    height: 24px;
     float: left;
 }
 header ul .WeChat{
-    position: absolute;
-    background-position: -324px -118px;
+    margin: 15%;
+    width: 25px;
+    height: 24px;
+    background: url("images/spritesheet.png")  -324px -118px;
 }
 header ul .QQ{
-    position: absolute;
-    background-position: -5px -118px;
+    margin: 15%;
+    width: 25px;
+    height: 24px;
+    background: url("images/spritesheet.png") -5px -118px;
 }
 header ul .Weibo{
-    position: absolute;
-    background-position: -289px -118px;
+    margin: 15%;
+    width: 25px;
+    height: 24px;
+    background: url("images/spritesheet.png") -289px -118px;
 }
