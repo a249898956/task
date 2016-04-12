@@ -122,38 +122,32 @@ ul {
     background-color: rgb(131,176,154);
 }
 #content-middle .column .bottom{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 0;
+}
+#content-middle .column .bottom li{
+    display: inline-block;
+    text-align: center;
     width: 25%;
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: 760%;
 }
 #content-middle .column .bottom .left{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-position: -5px -5px;
-    float: left;
+    background-position: 0 0;
     background-image: url("images/spritesheet.png");
 }
 #content-middle .column .bottom .center-left{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-position: -45px -5px;
-    float: left;
+    background-position:15% 0;
     background-image: url("images/spritesheet.png");
 }
-#content-middle .column .bottom .center-right{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-position: -85px -5px;
-    float: left;
+#content-middle .column .bottom .center-right {
+    background-position:30% 0;
     background-image: url("images/spritesheet.png");
 }
 #content-middle .column .bottom .right{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-position: -125px -5px;
-    float: left;
+    background-position:  44% 0;
     background-image: url("images/spritesheet.png");
 }
 #footer{
