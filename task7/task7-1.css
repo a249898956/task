@@ -62,19 +62,20 @@ header .top ul .Weibo{
 }
 header nav{
     width: 100%;
-    float: right;
+    overflow: hidden;
     background-color: #29b078;
 }
 header nav ul{
-    width: 33%;
+    width: 40%;
     float: right;
-    line-height: 6.4rem;
-    color: white;
+    font-size: 1.6rem;
 }
 header nav ul li{
-    padding: 0 5%;
-    margin: 3px 0;
+    padding: 5% 5%;
     display: inline-block;
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid #29b078;
 }
 header nav ul li:hover{
     border-bottom: 3px solid white;
