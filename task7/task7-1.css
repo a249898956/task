@@ -19,44 +19,98 @@ img {
 ul {
     list-style: none;
 }
-header{
+header .top{
     background-color: #fff;
     overflow: hidden;
     width: 100%;
     height: 2.7rem;
     line-height: 2.7rem;
 }
-header span{
+header .top span{
     float: left;
     color: #29b078;
     font-size: 1.2rem;
     display: inline-block;
     margin-left:10%;
 }
-header ul{
+header .top ul{
     margin-right: 10%;
     float: right;
 }
-header li{
+header .top li{
     margin-left: 22px;
     display: inline-block;
     float: left;
 }
-header ul .WeChat{
+header .top ul .WeChat{
     margin: 15%;
     width: 25px;
     height: 24px;
     background: url("images/spritesheet.png")  -324px -118px;
 }
-header ul .QQ{
+header .top ul .QQ{
     margin: 15%;
     width: 25px;
     height: 24px;
     background: url("images/spritesheet.png") -5px -118px;
 }
-header ul .Weibo{
+header .top ul .Weibo{
     margin: 15%;
     width: 25px;
     height: 24px;
     background: url("images/spritesheet.png") -289px -118px;
+}
+header nav{
+    width: 100%;
+    float: right;
+    background-color: #29b078;
+}
+header nav ul{
+    width: 33%;
+    float: right;
+    line-height: 6.4rem;
+    color: white;
+}
+header nav ul li{
+    padding: 0 5%;
+    margin: 3px 0;
+    display: inline-block;
+}
+header nav ul li:hover{
+    border-bottom: 3px solid white;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*轮播图开始*/
+header .carousel{
+    left: -300%;
+    width: 400%;
+    transition: all 0.5s ease-in 0s;
+}
+header .carousel .banner{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+header .button{
+    text-align: center;
+    border: none;
+}
+header .button .pre{
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/spritesheet.png") no-repeat -382px -5px;
+}
+header .button .next {
+    position: absolute;
+    top: 44%;
+    right: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/spritesheet.png") no-repeat  -359px -61px;
 }
