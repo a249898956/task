@@ -26,32 +26,101 @@
     </aside>
     <nav>
         <ul>
-            <li><a href="#" >首页</a></li>
-            <li><a href="#" >职业</a></li>
-            <li><a href="#" >推荐</a></li>
-            <li><a href="#" >关于</a></li>
+            <li><a href="http://www.jnshu.com/#/skill/home" target="_blank">首页</a></li>
+            <li><a href="http://www.jnshu.com/#/skill/occupation/Recommend/#1" target="_blank">职业</a></li>
+            <li><a href="http://www.jnshu.com/#/skill/novice/mode#1" target="_blank">推荐</a></li>
+            <li><a href="http://www.jnshu.com/#/skill/about#1" target="_blank">关于</a></li>
         </ul>
     </nav>
-    <!--轮播图-->
-    <div class="carousel">
-        <div class="banner">
-            <img src="images/banner1.jpg">
-        </div>
-        <div class="banner">
-            <img src="images/banner2.jpg">
-        </div>
-        <div class="banner">
-            <img src="images/banner3.jpg">
-        </div>
-        <div class="banner">
-            <img src="images/banner4.jpg">
+    <!--轮播图开始-->
+    <div class="wrap">
+        <div class="carousel">
+            <div><img src="images/banner1.jpg"></div>
+            <div><img src="images/banner2.jpg"></div>
+            <div><img src="images/banner3.jpg"></div>
+            <div><img src="images/banner4.jpg"></div>
         </div>
     </div>
     <div class="button">
         <i class="pre"></i>
         <i class="next"></i>
     </div>
+    <script>
+        (function () {
+            var carousel = document.querySelector(".carousel");
+            var img = carousel.querySelectorAll("div");
+            var len = img.length;
+            [].forEach.call(img, function (item) {
+                item.style.width = (100 / len) + "%";
+            });
+            carousel.style.left = "0%";
+            carousel.style.width = (100 * len) + "%";
+            var pre = document.querySelector(".pre");
+            var next = document.querySelector(".next");
+            var i = 0;
+            next.onclick = function () {
+                var left = carousel.style.left;
+                if (i < len - 1) {
+                    carousel.style.left = (parseInt(left) - 100) + "%";
+                    i++;
+                }
+                else if (i == len - 1) {
+                    carousel.style.left = "0%";
+                    i = 0;
+                }
+            };
+            pre.onclick = function () {
+                var left = carousel.style.left;
+                if (i > 0) {
+                    carousel.style.left = (parseInt(left) + 100) + "%";
+                    i--;
+                } else if (i == 0) {
+                    carousel.style.left = -parseInt(carousel.style.width) + 100 + "%";
+                    i = len - 1;
+                }
+            };
+        }());
+    </script>
+    <!--轮播图结束-->
 </header>
-
+<div class="main">
+    <!--大图标-->
+    <div class="big-icon">
+        <div class="left">
+            <div class="efficient">
+                <div class="icon-efficient"></div>
+                <b>高效</b>
+                <p>将五到七年的成长时间，缩短到一年到三年。</p>
+            </div>
+            <div class="specification">
+                <div class="icon-specification"></div>
+                <b>规范</b>
+                <p>标准的实战教程，不会走弯路</p>
+            </div>
+            <div class="contacts">
+                <div class="icon-contacts"></div>
+                <b>人脉</b>
+                <p>同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</p>
+            </div>
+        </div>
+        <div class="right">
+            <ul>
+                <li>
+                    <div class="people"></div>
+                    <span>12400</span>
+                </li>
+                <li>累计在线学习人数</li>
+                <li>
+                    <div class="people"></div>
+                    <span>12400</span>
+                </li>
+                <li>学员已经找到满意工作</li>
+            </ul>
+        </div>
+    </div>
+    <div class="study"></div>
+    <div class="student"></div>
+    <div class="company"></div>
+</div>
 </body>
 </html>

@@ -1,0 +1,22 @@
+.wrap {
+    width: 600px;
+    min-height:400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;//隐藏超出的内容
+}
+.carousel {
+    position: absolute;//定位图片
+transition: all 0.5s ease-in 0s;//轮播动画
+}
+img {
+    width: 100%;
+}
+.carousel div {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
