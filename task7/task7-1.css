@@ -11,7 +11,6 @@ body {
     font-size: 1.6rem;
     min-width: 320px;
     margin: 0 auto;
-    background-color: #29bde0;
 }
 img {
     max-width: 100%;
@@ -122,11 +121,10 @@ img {
 /*轮播图结束*/
 /*大图标*/
 .main{
-    padding: 0 10%;
     background-color: #fafafa;
 }
 .main .big-icon{
-    padding: 10rem 0;
+    padding: 5% 10%;
 }
 .main .big-icon .left{
     width: 70%;
@@ -191,6 +189,9 @@ img {
 }
 /*大图标结束*/
 /*如何学习*/
+.main .study{
+    padding: 0 10%;
+}
 .main .study h2{
     text-align: center;
     line-height: 8rem;
@@ -248,6 +249,9 @@ img {
 }
 /*如何学习结束*/
 /*学员展示*/
+.main .student{
+    padding: 0 10%;
+}
 .main .student h2{
     text-align: center;
     margin: 4rem 0;
@@ -312,6 +316,9 @@ img {
 }
 /*学员展示结束*/
 /*合作企业*/
+.main .company{
+    padding: 0 10%;
+}
 .main .company h2{
     margin: 8rem;
     text-align: center;
@@ -358,7 +365,6 @@ img {
 /*友情链接*/
 .main .links{
     margin-top: 6rem;
-    padding: 3rem 0;
     width: 100%;
     background-color: white;
 }
@@ -366,6 +372,7 @@ img {
     text-align: center;
 }
 .main .links ul{
+    padding: 0 10%;
     margin: 2rem 0;
     list-style: inherit;
 }
