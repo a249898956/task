@@ -1,22 +1,46 @@
-.wrap {
-    width: 600px;
-    min-height:400px;
-    margin: 0 auto;
+.banner{
+    overflow: hidden;
     position: relative;
-    overflow: hidden;//隐藏超出的内容
+    width: 1360px;
+    height: 425px;
+    margin: 0 auto;
 }
-.carousel {
-    position: absolute;//定位图片
-transition: all 0.5s ease-in 0s;//轮播动画
+.picture{
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    animation: one 10s infinite;
+    -moz-animation: one 10s infinite;
+    -webkit-animation: one 10s infinite;
+    -o-animation: one 10s infinite;
 }
-img {
-    width: 100%;
-}
-.carousel div {
+.picture li{
     float: left;
-    width: 33.333%;
-    text-align: center;
+    width: 1360px;
+    height: 425px;
 }
-.button {
-    text-align: center;
+.banner .picture{
+    -webkit-animation-name: one;
+}
+@keyframes one {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: -1360px;
+    }
+    50% {
+        top: 0px;
+        left: 2720px;
+    }
+    75% {
+        top: 0px;
+        left: -4080px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
 }

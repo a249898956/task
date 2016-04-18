@@ -1,0 +1,40 @@
+.main .top{
+    height: 248px;
+    background: url("images/company-head.png") no-repeat -240px 0;
+}
+.main .top .top{
+}
+.main .top .bottom{
+    display: block;
+}
+.main .top ul{
+    padding-left: 650px;
+    padding-top: 80px;
+}
+.main .top ul li{
+    display: inline-block;
+}
+.main .top ul li .top{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.main .top ul li .bottom{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.main .top .right{
+    color: white;
+    font-weight: bold;
+    font-size: 5.5rem;
+}
+.main .company{
+    margin-left:10%;
+    line-height: 5.2rem;
+}
+.main .company .font{
+    color: #29b078;
+}
