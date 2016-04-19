@@ -38,3 +38,72 @@
 .main .company .font{
     color: #29b078;
 }
+.main .content{
+    margin: 0 10%;
+}
+.main .content aside{
+    margin: 0 2%;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    background-color: white;
+}
+.main .content aside ul{
+}
+.main .content aside ul li{
+    line-height: 4rem;
+}
+.main .content aside ul .middle{
+}
+.main .content aside ul .content-company{
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main .content aside ul .circles{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 100px;*/
+    border:1px #ff650e solid;
+}
+.main .content aside ul .circles:hover{
+    background-color: #f9a372;
+}
+.main .content aside ul a{
+    padding: 7% 30%;
+    text-decoration: none;
+    color: #29b078;
+}
+.main .content aside ul a:hover{
+    color: #ff650e;
+}
+.main .content article{
+    margin: 0 2%;
+    display: inline-block;
+    width: 70%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #999;
+    background-color: white;
+}
+.main .content article .overview{
+    padding: 5%;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main .content article .overview img{
+    margin: 40px;
+    float: left;
+    vertical-align: middle;
+}
+.main .content article .overview p{
+    display: inline-block;
+}
+.main .content article .middle p{
+    margin: 5%;
+    text-indent: 2.8rem;
+}
