@@ -1,0 +1,312 @@
+
+/*轮播图开始*/
+.wrap {
+    width: 100%;
+    min-height:390px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.carousel {
+    position: absolute;
+    transition: all 0.5s ease-in 0s;
+}
+img {
+    width: 100%;
+}
+.carousel div {
+    float: left;
+    text-align: center;
+}
+.button .pre{
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/spritesheet.png") no-repeat -382px -5px;
+}
+.button .next{
+    position: absolute;
+    top: 44%;
+    right: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/spritesheet.png") no-repeat  -359px -61px;
+}
+/*轮播图结束*/
+/*大图标*/
+.main{
+    background-color: #fafafa;
+}
+.main .big-icon{
+    padding: 5% 10%;
+}
+.main .big-icon .left{
+    width: 70%;
+    display: inline-block;
+}
+.main .big-icon .left .content{
+    width: 30%;
+    height: 16rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main .big-icon .left b{
+    text-align: center;
+    line-height: 5rem;
+    display: block;
+}
+.main .big-icon .left p{
+    margin: auto 10%;
+    font-size: 1.4rem;
+    color: #999;
+}
+.main .big-icon .left  .icon-efficient{
+    margin: 0 auto;
+    width: 43px;
+    height: 62px;
+    background:url("images/spritesheet.png") no-repeat -516px -156px;
+}
+.main .big-icon .left  .icon-specification{
+    margin: 0 auto;
+    width: 60px;
+    height: 62px;
+    background:url("images/spritesheet.png") no-repeat -289px 2px;
+}
+.main .big-icon .left .icon-contacts{
+    margin: 0 auto;
+    width: 52px;
+    height: 62px;
+    background:url("images/spritesheet.png") no-repeat -5px -2px;
+}
+.main .big-icon .right{
+    border-left: 1px dashed #999;
+    text-align: center;
+    width: 25%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main .big-icon .right .people{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background:url("images/spritesheet.png") no-repeat -359px -5px;
+}
+.main .big-icon .right span{
+    color: #29b078;
+    font-weight: 900;
+    display: inline-block;
+}
+.main .big-icon .right li{
+    font-size: 1.4rem;
+    color: #999;
+    line-height: 3.4rem;
+}
+/*大图标结束*/
+/*如何学习*/
+.main .study{
+    padding: 0 10%;
+}
+.main .study h2{
+    text-align: center;
+    line-height: 8rem;
+}
+.main .study ul{
+    margin: 5rem 0;
+}
+.main .study li{
+    height: 48px;
+    width: 20%;
+    display: inline-block;
+}
+.main .study ul .icon{
+    width: 3%;
+}
+.main .study span{
+    margin-top: 4px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+
+    float: left;
+    background-color: white;
+    display: inline-block;
+    color: #29b078;
+}
+.main .study p{
+    margin-left: 10%;
+    width: 70%;
+    float: left;
+    display: inline-block;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #999;
+}
+.main .study li .single{
+    height: 48px;
+    line-height: 48px;
+}
+.main .study .right{
+    margin: 9px 0;
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    background:url("images/spritesheet.png") no-repeat -474px -156px;
+}
+/*如何学习结束*/
+/*学员展示*/
+.main .student{
+    padding: 0 10%;
+}
+.main .student h2{
+    text-align: center;
+    margin: 4rem 0;
+}
+.main .student .content{
+    margin: 0 1%;
+    width: 22%;
+    display: inline-block;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+.main .student .content h3{
+    padding: 3rem 0;
+    text-align: center;
+}
+.main .student .content p{
+    margin: 0 10%;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #999;
+}
+.main .student .content .bg-one{
+    height: 108px;
+    width: 108px;
+    margin: 5% auto;
+    background-image: url("images/pic-three.png");
+}
+.main .student .content .bg-two{
+    height: 108px;
+    width: 108px;
+    margin: 5% auto;
+    background-image: url("images/pic-one.png")
+}
+.main .student .content .bg-three{
+    height: 108px;
+    width: 108px;
+    margin: 5% auto;
+    background-image: url("images/pic-two.png")
+}
+.main .student .content .bg-four{
+    height: 108px;
+    width: 108px;
+    margin: 5% auto;
+    background-image: url("images/pic.png")
+}
+.main .student ul{
+    text-align: center;
+}
+.main .student ul .origin{
+    width: 20px;
+    height: 20px;
+    margin: 2rem 0;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    background-color: white;
+}
+.main .student ul .origin:hover{
+    background-color: #29b078;
+}
+/*学员展示结束*/
+/*合作企业*/
+.main .company{
+    padding: 0 10%;
+}
+.main .company h2{
+    margin: 8rem;
+    text-align: center;
+}
+.main .company .pic{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+.main .company div div{
+    display: inline-block;
+    width: 20%;
+}
+.main .company .pic-one{
+    margin: 11px 0;
+    width: 212px;
+    height: 176px;
+    background: url("images/spritesheet.png") -67px -5px;
+}
+.main .company .pic-two{
+    margin: 28px 0;
+    width: 175px;
+    height: 141px;
+    background: url("images/spritesheet.png") -419px -5px;
+}
+.main .company .pic-three{
+    width: 263px;
+    height: 198px;
+    background: url("images/spritesheet.png") -5px -191px;
+}
+.main .company .pic-four{
+    margin: 66px 0;
+    width: 175px;
+    height: 65px;
+    background: url("images/spritesheet.png") -278px -231px;
+}
+.main .company .pic-five{
+    margin: 66px 0;
+    width: 175px;
+    height: 65px;
+    background: url("images/spritesheet.png") -289px -156px;
+}
+/*合作企业结束*/
+/*友情链接*/
+.main .links{
+    margin-top: 6rem;
+    width: 100%;
+    background-color: white;
+}
+.main h2{
+    text-align: center;
+}
+.main .links ul{
+    padding: 0 10%;
+    margin: 2rem 0;
+    list-style: inherit;
+}
+.main .links ul li{
+    padding: 1rem 0;
+    width: 9%;
+    font-size: 1.4rem;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.main .links ul li:hover{
+    border-bottom: 1px solid #29b078;
+}
+.main .links ul li .little{
+    margin: 2px 0;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #999;
+}
+/*友情链接结束*/
