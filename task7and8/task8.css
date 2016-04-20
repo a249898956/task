@@ -1,10 +1,14 @@
 .content .top{
-    margin: 0 10%;
+    margin: 0 5%;
     border-bottom: 1px solid #edf1f2;
 }
 .content .top li{
     display: inline-block;
     margin: 25px 10px;
+}
+.content .top li a{
+    color: black;
+    text-decoration: none;
 }
 .content .top .head{
     padding: 30px 0;
@@ -23,9 +27,118 @@
     background-color: #29b078;
 }
 .content section{
-    margin: 0 10%;
+    margin: 0 5%;
 }
 .content section h3{
     line-height: 60px;
     border-bottom: 1px solid #d0d6d9;
 }
+.content section .introduction{
+    margin: 40px 0;
+    display: inline-block;
+    width: 32%;
+    box-shadow: 0 0 2px #d0d6d9;
+    background-color: white;
+}
+.content section .introduction-head{
+    padding: 15px 10px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content section .introduction-head li{
+    display: inline-block;
+}
+.content section .introduction-head .head-one{
+    width: 37%;
+    overflow: hidden;
+}
+.content section .introduction-head .head-two{
+    width: 60%;
+    vertical-align: top;
+}
+.content section .introduction-head h4{
+    display: inline-block;
+    line-height: 3.2rem;
+}
+.content section .introduction-head p{
+    display: inline-block;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+.content section .introduction-top{
+    font-size: 1.4rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content section .introduction-top li{
+    padding: 15px 10px;
+    width: 43%;
+    display: inline-block;
+}
+.content section .introduction-top img{
+    vertical-align: bottom;
+}
+.content section .introduction-top .top-left{
+    border-right: 1px solid #d0d6d9;
+}
+.content section .introduction-middle{
+    font-size: 1.4rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content section .introduction-middle li{
+    padding: 15px 10px;
+    width: 43%;
+    display: inline-block;
+}
+.content section .introduction-middle span{
+    color: red;
+}
+.content section .introduction-middle .middle-left{
+    border-right: 1px solid #d0d6d9;
+}
+.content section .introduction-content{
+    font-size: 1.4rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content section .introduction-content .content-left{
+    width: 40%;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    display: inline-block;
+    border-right: 1px solid #d0d6d9;
+}
+.content section .introduction-content .content-right{
+    width: 59%;
+    display: inline-block;
+    vertical-align: top;
+}
+.content section .introduction-content .content-right .payroll{
+}
+.content section .introduction-content .content-right .payroll li{
+    width: 100%;
+    padding: 5px 0;
+}
+.content section .introduction-content .content-right .payroll .payroll-two{
+    border-top: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content section .introduction-content .content-right .payroll .left{
+    padding-left: 20px;
+}
+.content section .introduction-content .content-right .payroll .right{
+    padding-right: 10px;
+    float: right;
+}
+.content section .introduction-foot{
+    padding: 15px 10px;
+    border-bottom: 1px solid #d0d6d9;
+    font-weight: bolder;
+}
+.content section .introduction-foot span{
+    color: red;
+}
+.content section .introduction-footer{
+    padding: 15px 10px;
+    font-size: 1rem;
+}
+.content section .introduction-content{}
+.content section .introduction-content{}

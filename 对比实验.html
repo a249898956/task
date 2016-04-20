@@ -4,22 +4,59 @@
     <meta  charset="utf-8">
     <title>父元素高度确定的多行文本</title>
     <style>
-        .wrap{height:350px;background:#ccc;width: 100%}
+        #star-five{
+            width: 0;
+            height: 0;
+            color: #ff5c00;
+            margin: 5px 0;
+            position: relative;
+            display: block;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 7px solid #ff5c00;
+            -moz-transfrom:rotate(3.5deg);
+            -webkit-transform:rotate(3.5deg);
+            -ms-transform:rotate(3.5deg);
+            -o-transform:rotate(3.5deg);
+        }
+
+        #star-five:before{
+            width: 0;
+            height: 0;
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+            border-bottom: 8px solid #ff5c00;
+            position: absolute;
+            top: -4.5px;
+            left: -6.5px;
+            color: white;
+            display: block;
+            content: "";
+            -moz-transform:rotate(-3.5deg);
+            -webkit-transform:rotate(-3.5deg);
+            -ms-transform:rotate(-3.5deg);
+            -o-transform:rotate(-3.5deg);
+        }
+        #star-five:after{
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            color: #ff5c00;
+            top: .3px;
+            left: -10.5px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 7px solid #ff5c00;
+            content: "";
+            -moz-transform:rotate(-7deg);
+            -webkit-transform:rotate(-7deg);
+            -ms-transform:rotate(-7deg);
+            -o-transform:rotate(-7deg);
+        }
     </style>
 </head>
-
 <body>
-<table><tbody><tr><td class="wrap">
-    <div>
-        <p>看我是否可以居中。</p>
-        <p>看我是否可以居中。</p>
-        <p>看我是否可以居中。</p>
-    </div>
-</td></tr></tbody></table>
-
-<!--下面是代码任务区-->
-<div>
-    <img src="http://img.mukewang.com/54ffac56000169c001840181.jpg" title="害羞的小女生"/>
-</div>
+<div id="star-five"></div>
 </body>
 </html>

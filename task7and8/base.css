@@ -31,10 +31,10 @@ header .top span{
     color: #29b078;
     font-size: 1.2rem;
     display: inline-block;
-    margin-left:10%;
+    margin-left:5%;
 }
 header .top ul{
-    margin-right: 10%;
+    margin-right: 5%;
     float: right;
 }
 header .top li{
