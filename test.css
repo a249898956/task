@@ -8,7 +8,7 @@ ul{
 .banner{
     overflow: hidden;
     position: relative;
-    width: 1300px;
+    width: 1366px;
     height: 600px;
     margin: 0 auto;
 }
@@ -17,7 +17,7 @@ ul{
     width: 400%;
     height: 600px;
     -webkit-animation-name: one;
-    -webkit-animation-duration: 40s;
+    -webkit-animation-duration: 20s;
     -webkit-animation-delay: 5s;
     -webkit-animation-iteration-count: infinite;
 }
@@ -26,13 +26,13 @@ img{
 }
 @-webkit-keyframes one{
     0% {top: 0; left: 0;  }
-    25% {  top: 0;  left: -1300px;  }
-    50% {  top: 0;  left: -26000px;  }
-    75% {  top: 0;  left: -3900px;  }
+    25% {  top: 0;  left: -1366px;  }
+    50% {  top: 0;  left: -2732px;  }
+    75% {  top: 0;  left: -4098px;  }
     100% {  top: 0;  left: 0;  }
 }
 .picture li{
     float: left;
-    width: 1300px;
+    width: 1366px;
     height: 600px;
 }
