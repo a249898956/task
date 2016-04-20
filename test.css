@@ -26,9 +26,13 @@ img{
 }
 @-webkit-keyframes one{
     0% {top: 0; left: 0;  }
+    5% {  top: 0;  left: -1366px;  }
     25% {  top: 0;  left: -1366px;  }
+    30% {  top: 0;  left: -2732px;  }
     50% {  top: 0;  left: -2732px;  }
+    55% {  top: 0;  left: -4098px;  }
     75% {  top: 0;  left: -4098px;  }
+    80% {  top: 0;  left: 0;  }
     100% {  top: 0;  left: 0;  }
 }
 .picture li{
