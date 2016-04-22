@@ -138,12 +138,12 @@ header ul .right{
     border-left: .3rem solid #1d7ad9;
 }
 .content section ul .box1{
-    height: 2rem;
-    line-height: 2rem;
+    height: 3rem;
+    line-height: 3rem;
     background-color: #f4f4f4;
 }
 .content section ul .box1 .box{
-    margin: .3rem 1rem;
+    margin: .8rem 1rem;
     background-image: url(images/spritesheet.png);
     background-repeat: no-repeat;
     display: inline-block;

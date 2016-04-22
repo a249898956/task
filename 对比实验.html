@@ -1,43 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        div
-        {
-            position:relative;
-            height:60px;
-            width:60px;
-            border:1px solid #000;
-            background-color:yellow;
-            transform:rotateY(180deg);
-            -webkit-transform:rotateY(180deg); /* Chrome and Safari */
-            -moz-transform:rotateY(180deg); /* Firefox */
-        }
-        #div1
-        {
-            -webkit-backface-visibility:hidden;
-            -moz-backface-visibility:hidden;
-            -ms-backface-visibility:hidden;
-        }
-        #div2
-        {
-            -webkit-backface-visibility:visible;
-            -moz-backface-visibility:visible;
-            -ms-backface-visibility:visible;
-        }
+    <style type=”text/css”>
+        form#form1 {font:12px tahoma,sans-serif}
+        input[type="checkbox"] {visibility:hidden;width:0;height:0;margin:0;padding:0;}
+        input[type="checkbox"]+label {background:url(checkstyle.gif) no-repeat;padding-left:18px;color:#ccc;}
+        input[type="checkbox"]+label:hover {color:#369;background-position:0 -16px;}
+        input[type="checkbox"]:checked+label {color:#000;background-position:0 -48px;}
+        input[type="checkbox"]:focus+label {color:#963;background-position:0 -32px;}
+        input[type="radio"] {visibility:hidden;width:0;height:0;margin:0;padding:0;}
+        input[type="radio"]+label {background:url(checkstyle.gif) no-repeat 0 -64px;padding-left:18px;color:#ccc;}
+        input[type="radio"]+label:hover {color:#369;background-position:0 -80px;}
+        input[type="radio"]:checked+label {color:#000;background-position:0 -112px;}
+        input[type="radio"]:focus+label {color:#963;background-position:0 -96px;}
     </style>
 </head>
 <body>
-
-<p>本例有两个 div 元素，均旋转 180 度，背向用户。</p>
-
-<p>第一个 div 元素的 backface-visibility 属性设置为 "hidden"，所以应该是不可见的。</p>
-
-<div id="div1">DIV 1</div>
-
-<div id="div2">DIV 2</div>
-
-<p><b>注释：</b>本例只在 Internet Explorer 10、Firefox、Chrome 以及 Safari 中有效。</p>
-
+<label>
+    <input type="radio">
+</label>
 </body>
 </html>
