@@ -142,7 +142,7 @@ header ul .right{
     line-height: 2rem;
     background-color: #f4f4f4;
 }
-.content section ul li .box{
+.content section ul .box1 .box{
     margin: .3rem 1rem;
     background-image: url(images/spritesheet.png);
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ header ul .right{
     height: 15px;
     background-position: -62px -5px;
 }
-.content section ul li p{
+.content section ul .box1 p{
     display: inline-block;
     font-weight: 700;
     vertical-align: top;
