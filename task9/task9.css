@@ -158,3 +158,113 @@ header ul .right{
     color: #1d7ad9;
     font-size: 1.4rem;
 }
+.content section ul .box2{
+    font-size: 1.6rem;
+}
+.content section ul .box2 .left{
+    padding: 2rem 4rem;
+    display: inline-block;
+}
+.content section ul .box2 .left label{
+    margin-right: 3rem;
+}
+.content section ul .box2 .right{
+    padding: 2rem;
+    display: inline-block;
+    float: right;
+}
+.content section ul .size{
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #f4f4f4;
+}
+.content section ul .size span{
+    margin: .8rem 1rem;
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-position: -30px -5px;
+}
+.content section ul .size p{
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: top;
+    color: #1d7ad9;
+    font-size: 1.4rem;
+}
+.content section ul .size1{
+    font-size: 1.6rem;
+}
+.content section ul .size1 .left{
+    display: inline-block;
+}
+.content section ul .size1 .left form{
+    padding: 1.5rem 4rem;
+}
+.content section ul .size1 .left form label.long{
+    margin: 0 2rem;
+}
+.content section ul .size1 .left .text{
+    width: 6rem;
+    height: 2rem;
+}
+.content section ul .size1 .right{
+    padding: 4.5rem 2rem;
+    display: inline-block;
+    float: right;
+}
+.content section ul .material{
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #f4f4f4;
+}
+.content section ul .material span{
+    margin: .8rem 1rem;
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+.content section ul .material p{
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: top;
+    color: #1d7ad9;
+    font-size: 1.4rem;
+}
+.content section ul .material-1{
+    font-size: 1.6rem;
+}
+.content section ul .material-1 form{
+    display: inline-block;
+}
+.content section ul .material-1 .left{
+    padding: 2rem 4rem;
+}
+.content section ul .material-1 .left label{
+    margin: 0 .7rem;
+}
+.content section ul .material-1 .right{
+    padding: 2rem;
+    float: right;
+}
+.content section ul .next{
+    height: 14rem;
+    line-height: 14rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-top: 1px solid #f4f4f4;
+}
+.content section ul .next button{
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: .5rem .5rem;
+    color: white;
+    background-color: #e15053;
+}
