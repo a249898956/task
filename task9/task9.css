@@ -21,7 +21,6 @@ body {
     font-family: 微软雅黑 serif;
     min-width: 320px;
     margin: 0 auto;
-    background-color: rgb(240,240,240);
 }
 img {
     max-width: 100%;
@@ -30,14 +29,14 @@ ul {
     list-style: none;
 }
 header{
-    height: 35px;
+    height: 3.5rem;
     background-color: #1d7ad9;
 }
 header ul{
-    height: 35px;
-    line-height: 35px;
+    height: 3.5rem;
+    line-height: 3.5rem;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 header ul li{
     display: inline-block;
@@ -47,7 +46,7 @@ header ul li a{
     color: white;
 }
 header ul li span{
-    padding: 10px;
+    padding: 1.3rem;
 }
 header ul li span:hover{
     color: black;
@@ -60,4 +59,102 @@ header ul .left{
 header ul .right{
     margin-right: 15%;
     float: right;
+}
+.content nav{
+    height: 7rem;
+    font-weight: bold;
+    line-height: 7rem;
+    padding: 0 15%;
+    background-color: #f9f9f9;
+}
+.content nav ul{
+    padding: 2rem 0;
+    line-height: 3rem;
+    float: right;
+}
+.content nav ul a{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+}
+.content nav ul a:hover{
+    border-radius: 10%;
+    color: white;
+    background-color: #1d7ad9;
+}
+.content nav li{
+    display: inline-block;
+    border-radius: 10%;
+    background-color: white;
+}
+.content .step{
+    overflow: hidden;
+    color: #cccccc;
+    padding: 3rem 0;
+    margin-right: 15%;
+    font-weight: 700;
+}
+.content .step ul{
+    float: right;
+}
+.content .step ul li{
+    position: relative;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 12rem;
+    height: 3rem;
+    border-top: .5rem solid #ccc;
+}
+.content .step ul .step1{
+    color: #ff7f02;
+    border-top: .5rem solid  #ff7f02;
+}
+.content .step ul .step1 p{
+    background-color: #ff7f02;
+}
+.content .step ul li p{
+    position: absolute;
+    left: 5rem;
+    top: -.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+.content .step ul li h4{
+    margin: 1rem 0;
+}
+.content section{
+    padding: 0 15%;
+}
+.content section .head{
+    padding-left: 1%;
+    margin: 10px 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-left: .3rem solid #1d7ad9;
+}
+.content section ul .box1{
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #f4f4f4;
+}
+.content section ul li .box{
+    margin: .3rem 1rem;
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 15px;
+    background-position: -62px -5px;
+}
+.content section ul li p{
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: top;
+    color: #1d7ad9;
+    font-size: 1.4rem;
 }
