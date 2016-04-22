@@ -20,7 +20,6 @@ body {
     height: 100%;
     font-family: 微软雅黑 serif;
     min-width: 320px;
-    max-width: 720px;
     margin: 0 auto;
     background-color: rgb(240,240,240);
 }
@@ -29,4 +28,36 @@ img {
 }
 ul {
     list-style: none;
+}
+header{
+    height: 35px;
+    background-color: #1d7ad9;
+}
+header ul{
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-size: 1.6rem;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li span{
+    padding: 10px;
+}
+header ul li span:hover{
+    color: black;
+    background-color: white;
+}
+header ul .left{
+    margin-left: 15%;
+    float:left;
+}
+header ul .right{
+    margin-right: 15%;
+    float: right;
 }
