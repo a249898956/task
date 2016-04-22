@@ -1,62 +1,43 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta  charset="utf-8">
-    <title>父元素高度确定的多行文本</title>
     <style>
-        #star-five{
-            width: 0;
-            height: 0;
-            color: #ff5c00;
-            margin: 5px 0;
-            position: relative;
-            display: block;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 7px solid #ff5c00;
-            -moz-transfrom:rotate(3.5deg);
-            -webkit-transform:rotate(3.5deg);
-            -ms-transform:rotate(3.5deg);
-            -o-transform:rotate(3.5deg);
+        div
+        {
+            position:relative;
+            height:60px;
+            width:60px;
+            border:1px solid #000;
+            background-color:yellow;
+            transform:rotateY(180deg);
+            -webkit-transform:rotateY(180deg); /* Chrome and Safari */
+            -moz-transform:rotateY(180deg); /* Firefox */
         }
-
-        #star-five:before{
-            width: 0;
-            height: 0;
-            border-left: 3px solid transparent;
-            border-right: 3px solid transparent;
-            border-bottom: 8px solid #ff5c00;
-            position: absolute;
-            top: -4.5px;
-            left: -6.5px;
-            color: white;
-            display: block;
-            content: "";
-            -moz-transform:rotate(-3.5deg);
-            -webkit-transform:rotate(-3.5deg);
-            -ms-transform:rotate(-3.5deg);
-            -o-transform:rotate(-3.5deg);
+        #div1
+        {
+            -webkit-backface-visibility:hidden;
+            -moz-backface-visibility:hidden;
+            -ms-backface-visibility:hidden;
         }
-        #star-five:after{
-            width: 0;
-            height: 0;
-            display: block;
-            position: absolute;
-            color: #ff5c00;
-            top: .3px;
-            left: -10.5px;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 7px solid #ff5c00;
-            content: "";
-            -moz-transform:rotate(-7deg);
-            -webkit-transform:rotate(-7deg);
-            -ms-transform:rotate(-7deg);
-            -o-transform:rotate(-7deg);
+        #div2
+        {
+            -webkit-backface-visibility:visible;
+            -moz-backface-visibility:visible;
+            -ms-backface-visibility:visible;
         }
     </style>
 </head>
 <body>
-<div id="star-five"></div>
+
+<p>本例有两个 div 元素，均旋转 180 度，背向用户。</p>
+
+<p>第一个 div 元素的 backface-visibility 属性设置为 "hidden"，所以应该是不可见的。</p>
+
+<div id="div1">DIV 1</div>
+
+<div id="div2">DIV 2</div>
+
+<p><b>注释：</b>本例只在 Internet Explorer 10、Firefox、Chrome 以及 Safari 中有效。</p>
+
 </body>
 </html>
