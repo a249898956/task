@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style type=”text/css”>
-        form#form1 {font:12px tahoma,sans-serif}
-        input[type="checkbox"] {visibility:hidden;width:0;height:0;margin:0;padding:0;}
-        input[type="checkbox"]+label {background:url(checkstyle.gif) no-repeat;padding-left:18px;color:#ccc;}
-        input[type="checkbox"]+label:hover {color:#369;background-position:0 -16px;}
-        input[type="checkbox"]:checked+label {color:#000;background-position:0 -48px;}
-        input[type="checkbox"]:focus+label {color:#963;background-position:0 -32px;}
-        input[type="radio"] {visibility:hidden;width:0;height:0;margin:0;padding:0;}
-        input[type="radio"]+label {background:url(checkstyle.gif) no-repeat 0 -64px;padding-left:18px;color:#ccc;}
-        input[type="radio"]+label:hover {color:#369;background-position:0 -80px;}
-        input[type="radio"]:checked+label {color:#000;background-position:0 -112px;}
-        input[type="radio"]:focus+label {color:#963;background-position:0 -96px;}
+    <style type="text/css">
+        body {
+            font-size: 12px;
+        }
+        form {
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .form-field {
+            margin-bottom: 5px;
+            background: #cdcdcd;
+            padding: 2px;
+        }
+
+        .submit,
+        .reset,
+        .button,
+        .text,
+        .select,
+        .textarea {
+            width: 80px;
+            border-color: red;
+        }
+
+        .textarea {
+            resize: none;
+        }
     </style>
 </head>
 <body>
-<label>
-    <input type="radio">
-</label>
+    <form action="#" method="post">
+        <div class="form-field">
+            <input type="submit" value="submit" class="submit" />
+        </div>
+        <div class="form-field">
+            <input type="reset" value="reset" class="reset" />
+        </div>
+        <div class="form-field">
+            <button class="button">button</button>
+        </div>
+        <div class="form-field">
+            <input type="text" value="text" class="text" />
+        </div>
+        <div class="form-field">
+            <select name="select" id="select" class="select">
+                <option value="1">1980</option>
+            </select>
+        </div>
+        <div class="form-field"><input type="checkbox" class="checkbox" />checkbox</div>
+        <div class="form-field"><input type="radio" class="radio" />radio</div>
+        <div class="form-field"><textarea name="textarea" id="" cols="30" rows="3" class="textarea"></textarea></div>
+    </form>
 </body>
 </html>
