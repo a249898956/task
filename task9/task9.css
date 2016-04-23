@@ -306,6 +306,26 @@ header ul .right{
 .content .foot ul.right{
     vertical-align: top;
 }
+.content .foot .right .left{
+    display: inline-block;
+}
 .content .foot .right span{
     display: block;
+    margin-bottom: 1rem;
+}
+.content .foot .right .pic{
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 92px;
+    height: 92px;
+    background-position: -91px -5px;
+}
+footer{
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    background-color: #1d7ad9;
 }
