@@ -96,6 +96,7 @@ a:hover {
 }
 .header p{
     margin-bottom: 0;
+    font-size: 1.4rem;
 }
 .header ul{
     margin-bottom: 0;
@@ -123,12 +124,11 @@ a:hover {
     font-size: 1rem;
     color: #fff;
 }
-nav.container ul{}
-nav.container>ul>li{
-    padding: 2rem;
-    font-size: 1.6rem;
-    cursor: pointer;
+.header-nav .nav li a{
+    padding: 3rem;
+    border-bottom: 4px solid #29b078;
 }
-nav.container ul li a{
-    color: white;
+.header-nav .nav li a:hover{
+    border-bottom: 4px solid white;
+    background-color: #29b078;
 }
