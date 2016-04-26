@@ -30,28 +30,33 @@
 </div>
 <div class="header-nav">
     <div class="container">
-        <div class="row">
-            <div class="loge col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="row navbar navbar-default" role="navigation">
+            <div class="navbar-header col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <h1>技能树</h1>
                 <h6>www.jnshu.com</h6>
             </div>
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapse" data-toggle="collapse"
-                        data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
-                </button>
-            </div>
-            <nav id="navbar" class="col-lg-6 col-md-6 col-sm-6 collapse navbar-collapse navbar-right" aria-expanded="false">
+            <button  type="button" class="navbar-toggle" data-toggle="collapse"
+                     data-target="#navbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="navbar" class=" collapse navbar-collapse col-lg-6 col-md-6 col-sm-6 col-xs-6 navbar-right" aria-expanded="false">
                 <ul class="nav navbar-nav navbar-right text-center">
                     <li class="active"><a href=""><span>首页</span></a></li>
                     <li><a href=""><span>职业</span></a></li>
                     <li><a href=""><span>推荐</span></a></li>
                     <li><a href=""><span>关于</span></a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </div>
-
 </div>
+
+<!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+<script src="jquery.min.js"></script>
+<!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+<script src="bootstrap.min.js"></script>
 </body>
 </html>

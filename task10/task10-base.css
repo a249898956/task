@@ -116,19 +116,47 @@ a:hover {
 .header-nav{
     background-color: #29b078;
 }
+.header-nav .navbar{
+    margin: 0;
+    border: none;
+    background-color: #29b078;
+}
+.header-nav .navbar-toggle{
+    background-color: #ddd;
+}
+.header-nav .navbar-nav{
+    background-color: #29b078;
+}
 .header-nav h1{
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     color: white;
 }
 .header-nav h6{
     font-size: 1rem;
     color: #fff;
 }
+.navbar-default .navbar-nav > .active > a{
+    color: white;
+    background-color: #29b078;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color: #29b078;
+}
+.navbar-default .navbar-nav > .active > a:visited{
+    border-bottom: 4px solid white;
+}
 .header-nav .nav li a{
     padding: 3rem;
+    color: white;
     border-bottom: 4px solid #29b078;
 }
 .header-nav .nav li a:hover{
     border-bottom: 4px solid white;
     background-color: #29b078;
+}
+.header-nav .navbar-toggle{
+    margin: 2rem 0;
+}
+.navbar-default .navbar-collapse{
+    border-color: #29b078;
 }
