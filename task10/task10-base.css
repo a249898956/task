@@ -161,3 +161,37 @@ a:hover {
 .navbar-default .navbar-collapse{
     border-color: #29b078;
 }
+.footer{
+    color: white;
+    background-color: #29b078;
+}
+.footer ul li p{
+    line-height: 3.2rem;
+}
+.footer .footer-left p.top{
+    font-size: 1.6rem;
+}
+.footer .footer-left span{
+    padding: 0 1rem;
+}
+.footer .footer-left p .left{
+    padding-left: 0;
+}
+.footer .footer-left p .middle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.footer .footer-center .top{
+    font-size: 1.6rem;
+}
+.footer .footer-center p span{
+    margin-right: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #29b078;
+}
+.footer .footer-center p span:hover{
+    border-bottom: 1px solid white;
+}
+.footer .footer-right .top{
+    font-size: 1.6rem;
+}
