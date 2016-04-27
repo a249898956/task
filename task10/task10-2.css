@@ -13,6 +13,7 @@
 .main .left{
     font-size: 1.4rem;
     background-color: white;
+    box-shadow: 0 0 1px #e1e1e1;
 }
 .main .left li{
 }
@@ -21,8 +22,7 @@
     font-size: 1.6rem;
     font-weight: bold;
     color: black;
-    -moz-box-shadow: 0 0 1px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    border-bottom: 1px solid #e1e1e1;
 }
 .main .left  li .circle{
     margin-right: 10px;
@@ -37,19 +37,42 @@
     background-color: #f9a372;
 }
 .main .left li a{
+    display: block;
     width: 90%;
     color: #29b078;
-    line-height: 5rem;
-    padding-left: 7rem;
+    padding: 5% 0 5% 20%;
+    background-color: white;
+    word-break: keep-all;
 }
 .main .left li a:hover{
     color: #ff650e;
     background-color: white;
 }
-.main .left .active{
-    background-color: white;
+.main .left .tudou a{
     color: #ff650e;
 }
-.main .left .active .circle{
+.main .left .tudou a .circle{
     background-color: #f9a372;
+}
+
+.main .right{
+    font-size: 1.4rem;
+    background-color: white;
+    box-shadow: 0 0 1px #e1e1e1;
+}
+.main .right .top-left{
+    padding-top: 5rem;
+}
+.main .right .top-right{
+    padding: 0;
+}
+.main .right ul{
+    margin: 2rem 3rem;
+}
+.main .right ul li p{
+    text-indent: 2.8rem;
+    line-height: 3rem;
+}
+.main .right ul .bottom>p{
+    display: block;
 }
