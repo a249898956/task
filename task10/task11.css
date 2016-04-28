@@ -1,0 +1,163 @@
+.content>.top{
+    padding: 2rem 0;
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content .top span{
+    color: #29b078;
+}
+.content .direction{
+    padding-bottom: 1rem;
+    margin: 2rem 0;
+    border-bottom: 1px solid #edf1f2;
+}
+.content .direction .direction2 a{
+    color: #999;
+}
+.content .direction .all span{
+    color: white;
+    background-color: #29b078;
+}
+.content .direction .direction1 a{
+    color: black;
+}
+/*前端发展方向*/
+.content .middle .head{
+    padding-bottom: 2rem;
+}
+.content .middle .head li{
+    padding: 30px 0;
+    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.content .middle .introduction>ul{
+    position: relative;
+    box-shadow: 0 0 1px #e1e1e1;
+}
+.content .middle .introduction .introduction-head{
+    border-bottom: 1px solid #e1e1e1;
+    color: black;
+}
+.content .middle .introduction .introduction-head .head-one{
+    padding: 0 0 20px 10px;
+    width: 33%;
+    display: inline-block;
+}
+.content .middle .introduction .introduction-head .head-two{
+    position: relative;
+    top: 37px;
+    width: 65%;
+    display: inline-block;
+}
+.content .middle .introduction .introduction-head .head-two h4{
+    font-weight: 700;
+}
+.content .middle .introduction .introduction-top{
+    padding: 0 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-top img{
+    position: relative;
+    top: -2px;
+}
+.content .middle .introduction .introduction-top .top-left{
+    display: inline-block;
+    padding: 10px 0;
+    width: 49%;
+    border-right: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-top .top-right{
+    display: inline-block;
+    padding: 10px;
+    width: 49%;
+}
+.content .middle .introduction .introduction-middle{
+    padding: 0 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-middle span{
+    color: black;
+}
+.content .middle .introduction .introduction-middle span.nub{
+    color: red;
+}
+.content .middle .introduction .introduction-middle .middle-left{
+    display: inline-block;
+    padding: 10px 0;
+    width: 49%;
+    border-right: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-middle .middle-right{
+    display: inline-block;
+    padding-left: 10px;
+    width: 49%;
+}
+.content .middle .introduction .introduction-content{
+    border-bottom: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-content .content-left{
+    position: relative;
+    top: -32px;
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+}
+.content .middle .introduction .introduction-content .content-right{
+    display: inline-block;
+    width: 58%;
+    color: black;
+    border-left: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-content .content-right li>ul{
+    padding: 5px;
+}
+.content .middle .introduction .introduction-content .content-right .payroll .right{
+    float: right;
+}
+.content .middle .introduction .introduction-content .content-right .payroll .payroll-two{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-foot{
+    padding: 10px;
+    font-weight: 900;
+    color: black;
+    border-bottom: 1px solid #e1e1e1;
+}
+.content .middle .introduction .introduction-foot span{
+    color: red;
+}
+.content .middle .introduction .introduction-footer{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.content .middle .introduction .behind{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    transform: rotateY(90deg);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.content .middle  .introduction .behind h4{
+    margin-top: 6rem;
+    text-align: center;
+    border-bottom: none;
+}
+.content .middle  .introduction .behind p{
+    padding: 0 50px;
+    text-indent: 20px;
+    text-align: left;
+}
+.content .middle .introduction:hover li.behind{
+    transform: rotateY(0deg);
+    transition: 1s;
+}
