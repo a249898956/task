@@ -1,0 +1,153 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+/*bootstrap默认p元素margin: 0 0 10px; 上面的*无法覆盖*/
+p {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1220px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+html{
+  min-width: 320px;
+}
+body {
+  background: #fff;
+  font-family: Microsoft YaHei, serif;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3.6rem;
+  color: #fff;
+}
+h2 {
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+h6 {
+  font-size: 1rem;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pos(r){
+  position: relative;
+}
+.pos(a){
+  position: absolute;
+}
+
+.btn(bottom){
+  border-bottom: 1px solid white;
+}
+.btn(top){
+  border-top: 1px solid white;
+}
+.btn(left){
+  border-left: 1px solid white;
+}
+.btn(right){
+  border-right: 1px solid white;
+}
+
+.head{
+  background-color: #1d7ad9;
+  .container{
+  }
+  ul{
+    margin-bottom: 0;
+  }
+  .left{
+    line-height: 40px;
+    color: white;
+    font-size: 1.4rem;
+  }
+  .right{
+    font-size: 0;
+  }
+  span{
+    padding: 9.5px;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 40px;
+    &:hover{
+      color: black;
+      background-color: white;
+    }
+  }
+  .active {
+    color: black;
+    background-color: white;
+  }
+}
+
+.nav{
+  background-color: #f9f9f9;
+  .container{
+    margin-bottom: 0;
+    border: none;
+  }
+  .navbar-header{
+    float: right;
+  }
+  #navbar{
+    li{
+      margin-left: 2rem;
+    }
+    a{
+      margin: 1.5rem 0;
+      padding: 1.2rem 1.6rem;
+      color: black;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px #999;
+      &:hover{
+        color: white;
+        background-color: #1d7ad9;
+        box-shadow: none;
+      }
+    }
+    .active{
+      color: white;
+      background-color: #1d7ad9;
+      box-shadow: none;
+    }
+  }
+
+}
