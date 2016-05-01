@@ -129,8 +129,8 @@ a:hover {
   color: #ccc;
 }
 .content-top ul {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 0;
+  margin-left: 0;
   font-size: 0;
 }
 .content-top li {
@@ -158,23 +158,29 @@ a:hover {
   font-size: 1.4rem;
   background-color: #ccc;
 }
-.content-icon {
-  background-image: url(images/spritesheet.png);
-  background-repeat: no-repeat;
-  display: inline-block;
-}
 .content-main h3 {
   padding-left: 6px;
   border-left: 5px solid #1d7ad9;
 }
-.content-main .box .box-icon {
+.box {
+  margin-right: 0;
+  margin-left: 0;
+}
+.box .box-icon {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
   background-color: #f4f4f4;
 }
-.content-main .icon {
+.box .icon {
   background-image: url(images/spritesheet.png);
   background-repeat: no-repeat;
   display: inline-block;
   width: 19px;
   height: 15px;
   background-position: -62px -5px;
+}
+.box-1 {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 1.8rem;
 }
