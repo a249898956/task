@@ -124,3 +124,57 @@ a:hover {
   background-color: #1d7ad9;
   box-shadow: none;
 }
+.content-top {
+  margin: 3rem 0;
+  color: #ccc;
+}
+.content-top ul {
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 0;
+}
+.content-top li {
+  display: inline-block;
+  width: 10rem;
+  border-top: 5px solid #ccc;
+}
+.content-top li p {
+  color: white;
+}
+.content-top .active {
+  border-top: 5px solid #ff7f02;
+  color: #ff7f02;
+}
+.content-top .active p {
+  background-color: #ff7f02;
+}
+.content-top p {
+  position: relative;
+  top: -12px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  background-color: #ccc;
+}
+.content-icon {
+  background-image: url(images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.content-main h3 {
+  padding-left: 6px;
+  border-left: 5px solid #1d7ad9;
+}
+.content-main .box .box-icon {
+  background-color: #f4f4f4;
+}
+.content-main .icon {
+  background-image: url(images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 15px;
+  background-position: -62px -5px;
+}
