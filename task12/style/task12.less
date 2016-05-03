@@ -187,6 +187,12 @@ a:hover {
   }
 }
 
+.icon-jb{
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  background-color: #f4f4f4;
+}
+
 .content-main{
   h3{
     padding-left: 6px;
@@ -195,12 +201,9 @@ a:hover {
 }
 
 .box{
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0;
   .box-icon{
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
-    background-color: #f4f4f4;
+    .icon-jb;
   }
 
   .icon{
@@ -213,7 +216,98 @@ a:hover {
   }
 }
 .box-1{
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0;
   font-size: 1.8rem;
+  background-color: #fbfcff;
+  li{
+    padding: 1.5rem;
+  }
+  .check{
+    .pos(r);
+    top: 7px;
+  }
+}
+
+
+.content-ruler{
+  .ruler{
+    margin: 0;
+    .icon-jb;
+  }
+  .icon-ruler{
+    .pos(r);
+    top: 4px;
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-position: -30px -5px;
+  }
+  .outside{
+    margin: 0;
+    font-size: 1.8rem;
+    background-color: #fbfcff;
+    .box{
+      width: 6rem;
+    }
+    .label1{
+      .pos(r);
+      top: 10px;
+      font-weight: 400;
+    }
+  }
+  .inside{
+    margin: 0;
+    font-size: 1.8rem;
+    background-color: #fbfcff;
+    .box{
+      width: 6rem;
+    }
+    .label1{
+      .pos(r);
+      top: 10px;
+      font-weight: 400;
+    }
+    .check{
+      top: -1rem;
+    }
+  }
+}
+
+.content-scissors{
+  .scissors{
+    margin: 0;
+    .icon-jb;
+  }
+  .icon-scissors{
+    .pos(r);
+    top: 4px;
+    background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background-position: -5px -5px;
+  }
+  .scissors1{
+    margin: 0;
+    padding: 3rem 0;
+    background-color: #fbfcff;
+    .check{
+      top: .6rem;
+    }
+  }
+  .next{
+    padding: 5rem 0;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+    border-top: none;
+    button{
+      width: 10rem;
+      border: none;
+      color: white;
+      background-color: #e15053;
+    }
+  }
 }
