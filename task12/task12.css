@@ -276,3 +276,59 @@ a:hover {
   color: white;
   background-color: #e15053;
 }
+.foot {
+  margin-top: 3rem;
+  background-color: #f9f9f9;
+}
+.foot .container {
+  padding: 4rem 0;
+}
+.foot .container .row {
+  margin: 0;
+}
+.foot span {
+  color: #999;
+}
+.foot .left {
+  margin-bottom: 3rem;
+}
+.foot .center {
+  font-size: 1.4rem;
+}
+.foot .center li {
+  margin-bottom: 2rem;
+}
+.foot .center li a {
+  margin-right: 2rem;
+}
+.foot .center li span:hover {
+  color: #1d7ad9;
+}
+.foot .center li .one span {
+  color: #1d7ad9;
+}
+.foot .right {
+  font-size: 1.4rem;
+}
+.foot .right li {
+  display: inline-block;
+  vertical-align: top;
+}
+.foot .right span {
+  display: block;
+  margin-bottom: 1rem;
+}
+.foot .pic {
+  background-image: url(images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 92px;
+  height: 92px;
+  background-position: -91px -5px;
+}
+footer {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #1d7ad9;
+}
