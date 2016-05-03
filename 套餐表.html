@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>推荐产品</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
     <style>
-        .one{
-            height: 400px;
-            width: 400px;
-            background-color: rebeccapurple;
+
+        .main input[type=radio] + span {
+            /* box-sizing: border-box; */
+            display: inline-block;
+            width: 1.4rem;
+            height: 1.4rem;
+            margin: 0 1rem;
+            border: solid 1px black;
+            border-radius: .7rem;
         }
-        .one:hover .two{
-            background-color: red;
-        }
-        .two{
-            position: relative;
-            top: 80px;
-            left: 80px;
-            height: 240px;
-            width: 240px;
-            background-color: #1ba36e;
+        .main input[type=radio]:checked + span {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 1.6rem;
+            height: 1.6rem;
+            margin: 0 1rem;
+            border: solid .6rem #1277dc;
+            border-radius: .8rem;
         }
     </style>
 </head>
 <body>
-<span class="glyphicon glyphicon-search"></span>
-<span class="glyphicon glyphicon-asterisk"></span>
-<span class="glyphicon glyphicon-plus"></span>
-<span class="glyphicon glyphicon-cloud"></span>
-<span class="glyphicon glyphicon-heart"></span>
+<div class="container main">
+    <ul class="row">
+        <li class="row type1">
+            <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="suit cases">
+                <input type="radio" name="type" id="suit cases" class="hidden"> <span></span>对口箱</label>
+            <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="the plane box">
+                <input type="radio" name="type" id="the plane box" class="hidden"><span></span>飞机盒</label>
+            <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="hat box">
+                <input type="radio" name="type" id="hat box" class="hidden"> <span></span>天地盖</label>
+            <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6 select1">
+                <select>
+                    <option value="">查看详情</option>
+                </select>
+            </label>
+        </li>
+    </ul>
+</div>
+
+<!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+<!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

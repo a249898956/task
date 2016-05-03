@@ -189,11 +189,47 @@ a:hover {
   background-color: #fbfcff;
 }
 .box-1 li {
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
 }
 .box-1 .check {
   position: relative;
-  top: 7px;
+  top: 5px;
+}
+.box-1 input {
+  opacity: 0;
+}
+.box-1 input[type=radio] + span {
+  /* box-sizing: border-box; */
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: -1rem;
+  border: solid 1px black;
+  border-radius: .7rem;
+}
+.box-1 input[type=radio]:checked + span {
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: -1rem;
+  border: solid .6rem #1277dc;
+  border-radius: .8rem;
+}
+.box-1 .caret {
+  height: 28px;
+  width: 24px;
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  border: solid 1px #e8e8e8;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(images/list.png) 90% center no-repeat;
 }
 .content-ruler .ruler {
   margin: 0;
@@ -216,6 +252,9 @@ a:hover {
   font-size: 1.8rem;
   background-color: #fbfcff;
 }
+.content-ruler .outside li {
+  margin: 1rem 0;
+}
 .content-ruler .outside .box {
   width: 6rem;
 }
@@ -224,10 +263,38 @@ a:hover {
   top: 10px;
   font-weight: 400;
 }
+.content-ruler .outside .outside1 input {
+  opacity: 0;
+}
+.content-ruler .outside .outside1 input[type=radio] + span {
+  /* box-sizing: border-box; */
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: -1rem;
+  border: solid 1px black;
+  border-radius: .7rem;
+}
+.content-ruler .outside .outside1 input[type=radio]:checked + span {
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: -1rem;
+  border: solid .6rem #1277dc;
+  border-radius: .8rem;
+}
 .content-ruler .inside {
   margin: 0;
   font-size: 1.8rem;
   background-color: #fbfcff;
+}
+.content-ruler .inside li {
+  margin: 1rem 0;
 }
 .content-ruler .inside .box {
   width: 6rem;
@@ -238,7 +305,43 @@ a:hover {
   font-weight: 400;
 }
 .content-ruler .inside .check {
-  top: -1rem;
+  top: -3rem;
+}
+.content-ruler .inside .check .caret {
+  height: 28px;
+  width: 24px;
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  border: solid 1px #e8e8e8;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(images/list.png) 90% center no-repeat;
+}
+.content-ruler .inside .inside1 input {
+  opacity: 0;
+}
+.content-ruler .inside .inside1 input[type=radio] + span {
+  /* box-sizing: border-box; */
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: -1rem;
+  border: solid 1px black;
+  border-radius: .7rem;
+}
+.content-ruler .inside .inside1 input[type=radio]:checked + span {
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: -1rem;
+  border: solid .6rem #1277dc;
+  border-radius: .8rem;
 }
 .content-scissors .scissors {
   margin: 0;
@@ -263,6 +366,42 @@ a:hover {
 }
 .content-scissors .scissors1 .check {
   top: .6rem;
+}
+.content-scissors .scissors1 .check .caret {
+  height: 28px;
+  width: 24px;
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  border: solid 1px #e8e8e8;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(images/list.png) 90% center no-repeat;
+}
+.content-scissors .scissors1 input {
+  opacity: 0;
+}
+.content-scissors .scissors1 input[type=radio] + span {
+  /* box-sizing: border-box; */
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: -1rem;
+  border: solid 1px black;
+  border-radius: .7rem;
+}
+.content-scissors .scissors1 input[type=radio]:checked + span {
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: -1rem;
+  border: solid .6rem #1277dc;
+  border-radius: .8rem;
 }
 .content-scissors .next {
   padding: 5rem 0;
