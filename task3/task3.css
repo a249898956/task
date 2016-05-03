@@ -1,51 +1,105 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Microsoft YaHei, serif;
+}
+img{
+    max-width: 100%;
+}
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 42.5%;
+    }
 }
 body{
+    font-size: 62.5%;
     background-color:rgb(104,205,213)
 }
-#header{
-    background: url("images/task3_01.png");
-    height: 39px;
-    width: auto;
-}
-
-#top{
-    background: url("images/task3_02.png");
-    height: 88px;
-    width: auto;
-}
-.back{
-    margin-left: 2em;
-    margin-top: 1em;
-}
-.logo{
-    width: 181px;
-    height: 70px;
-    margin: auto;
-}
-.introduction{
-    margin-right: 5%;
-    margin-left: 5%;
-    font-size: 1.3em;
+.top{
     color: white;
-    line-height: 200%;
-    letter-spacing: inherit;
+    background-color: #22292c;
 }
-.foot-left{
-    margin-top: 5em;
-    float:left;
-    width: 50%;
-    font-size: 1.3em;
+.top ul{
+    position: relative;
+    margin: 0 18px;
+}
+.top li{
+    display: inline-block;
+}
+.top .back{
+    font-size: 2.6rem;
+}
+.top .back img{
+    margin: 2rem 0;
+}
+.top .back span{
+    position: relative;
+    top: -2.8rem;
+}
+.top .middle{
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+    top: 25px;
+    font-size: 3.4rem;
+}
+.top li.dot{
+    float: right;
+    margin: 0 3px;
+    position: relative;
+    top: 3.2rem;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.content{
+    padding-bottom: 10rem;
+}
+.content .back1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.content .logo{
+    margin-top: 5rem;
     text-align: center;
+}
+.content p{
+    margin: 15%;
+    font-size: 3rem;
+    line-height: 3rem;
     color: white;
 }
-.foot-right{
-    margin-top: 5em;
-    float: left;
-    width: 50%;
-    font-size: 1.3em;
+.content ul{
     text-align: center;
+    font-size: 0;
+}
+.content ul li{
+    display: inline-block;
+    width: 50%;
+    font-size: 2.4rem;
+}
+.content ul li img{
+    display: block;
+    margin: 0 auto;
+}
+.content ul li span{
+    font-weight: 600;
+    line-height: 5rem;
+}
+.content ul .left span{
     color: white;
 }
