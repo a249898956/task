@@ -2,21 +2,30 @@
     margin: 0 auto;
     padding: 0 auto;
 }
-@media screen and (max-width: 550px) {
-    html{
-        font-size: 40%;
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 62.5%;
     }
 }
-body{
-    width: 100%;
-    max-width: 640px;
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 42.5%;
+    }
+}
+html {
     min-width: 320px;
-    font-size: 62.5%;
+}
+body{
 }
 #top{
     overflow: hidden;/*当背景不能填充满整个区域*/
     background:rgb(95,192,205);
-    padding: 1% 0;
+    padding: 3% 0;
     text-align: center;
 }
 #top .back{
@@ -25,8 +34,11 @@ body{
     float: left;
 }
 #top .head{
-    font-size: 2.3rem;
+    font-size: 3.6rem;
     color: white;
+}
+#content{
+    font-size: 3.2rem;
 }
 #content .background{
     background: url("images/icon-background.png");
@@ -46,7 +58,15 @@ body{
     padding-left: 5%;
     padding-top: 4%;
     color: white;
-    font-size: 2rem;
+}
+#content .background .introduction .name{
+    font-size: 3.6rem;
+}
+#content .background .introduction .old{
+    font-size: 2.8rem
+}
+#content .background .introduction .address{
+    font-size: 2.4rem
 }
 #content .underline{
     border-bottom: 1px solid #e1e5e7;
@@ -57,11 +77,11 @@ body{
 }
 #content .column p{
     margin:0 3%;
-    font-size: 2rem;
+    font-size: 3.2rem;
+    font-weight: 600;
 }
 ul{
     list-style: none;
-    font-size: 2rem;
     border-bottom: 1px solid #e1e5e7;
 }
 #content .list li{
@@ -94,34 +114,38 @@ ul{
 }
 #content .list .special-one{
     display: inline-block;
-    width: 57%;
+    width: 50%;
     vertical-align: middle;
-    font-size: 2rem;
 }
 #footer{
     width: 100%;
     overflow: hidden;
-    margin: 5%;
+    font-size: 0;
 }
-#footer .message{
+#footer div{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+#footer .message button{
+    margin: 4rem 0 2rem 0;
+    padding: 1rem 0;
     background-color: white;
     border: 1px solid rgb(95,192,205);
-    margin: 0 2%;
-    padding: 2% 0;
-    width: 40%;
+    width: 90%;
+    font-size: 3.2rem;
     text-align: center;
-    float: left;
-    font-size: 2rem;
     color: rgb(95,192,205);
+    border-radius: 10px;
 }
-#footer .contact{
+#footer .contact button{
+
+    padding: 1rem 0;
     background-color: rgb(95,192,205);
     border: 1px solid rgb(95,192,205);
-    margin: 0 2%;
-    padding: 2% 0;
-    width: 40%;
+    width: 90%;
+    font-size: 3.2rem;
     text-align: center;
-    float: left;
-    font-size: 2rem;
     color: white;
+    border-radius: 10px;
 }

@@ -10,7 +10,6 @@ body {
     width: 100%;
     font-size: 3.2rem;
     min-width: 320px;
-    max-width: 720px;
     margin: 0 auto;
 }
 img {
@@ -36,7 +35,7 @@ ul {
 }
 #top .button .employer{
     background: #51a8b4;
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     margin: 2% 0;
     padding: 1% 2% 1% 1%;
     border: none;
@@ -45,7 +44,7 @@ ul {
 }
 #top .button .nurse{
     background: white;
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     margin-left: -3.5%;
     padding: 1%;
     border: none;
@@ -77,7 +76,7 @@ form{
     clear: both;
 }
 select{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     border: none;
     color: #999;
 }
@@ -97,7 +96,7 @@ ul{
 }
 li{
     margin-left: 3%;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     line-height: 3.5rem;
 }
 li .view{
@@ -106,42 +105,51 @@ li .view{
     margin-top:.8%;
 }
 li .price{
-    color: red;
     float: right;
     margin-right: 5%;
+    font-size: 3rem;
+    color: red;
 }
 li .time{
     color: black;
+    font-size: 2.8rem;
 }
 #footer{
+    font-size: 0;
     background: #f8fafb;
-    font-size: 2.5rem;
     border-top: 1px solid #e1e5e7;
 }
 #footer .footer-left{
+    position: relative;
+    top: -15px;
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 33%;
 }
 #footer .footer-left .home{
+    font-size: 2rem;
     display: block;
     color: #5fc0ce;
 }
 #footer .footer-middle{
-    width: 30%;
+    width: 33%;
     text-align: center;
     display: inline-block;
 }
 #footer .footer-middle img{
+    background-size: cover;
     border-radius: 50%;
 }
 #footer .footer-right{
-    width: 30%;
+    position: relative;
+    top: -15px;
+    width: 33%;
     text-align: center;
     display: inline-block;
 }
 #footer .footer-right .mine{
     display: block;
+    font-size: 2rem;
     color: #999;
 }
 

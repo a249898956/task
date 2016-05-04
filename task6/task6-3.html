@@ -15,7 +15,20 @@
 <div id="content">
     <div class="top">
         <span class="discuss">发言讨论结束，大家请投票</span>
-        <div class="audio"></div>
+        <!--播放音频-->
+        <audio src="sp.mp3" controls="controls" preload="" id="music" hidden=""></audio>
+        <button id="a" onclick="a();"></button>
+        <script>
+            function a() {
+                var audio = document.getElementById('music');
+                if (audio.paused) {
+                    audio.play();//audio.play();// 播放
+                }
+                else {
+                    audio.pause();// 暂停
+                }
+            }
+        </script>
     </div>
     <div class="middle">
         <div class="triangle-down"></div>
