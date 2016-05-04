@@ -18,9 +18,13 @@ img {
     float: left;
     text-align: center;
 }
+.button{
+    position: relative;
+    height: 100px;
+}
 .button .pre{
     position: absolute;
-    top: 44%;
+    top: -230%;
     left: 10%;
     width: 27px;
     height: 46px;
@@ -28,7 +32,7 @@ img {
 }
 .button .next{
     position: absolute;
-    top: 44%;
+    top: -230%;
     right: 10%;
     width: 27px;
     height: 46px;
@@ -54,12 +58,13 @@ img {
 }
 .main .big-icon .left b{
     text-align: center;
+    font-size: 1.8rem;
     line-height: 5rem;
     display: block;
 }
 .main .big-icon .left p{
     margin: auto 10%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #999;
 }
 .main .big-icon .left  .icon-efficient{
@@ -81,8 +86,8 @@ img {
     background:url("images/spritesheet.png") no-repeat -5px -2px;
 }
 .main .big-icon .right{
+    padding-left: 3rem;
     border-left: 1px dashed #999;
-    text-align: center;
     width: 25%;
     vertical-align: middle;
     display: inline-block;
@@ -99,7 +104,7 @@ img {
     display: inline-block;
 }
 .main .big-icon .right li{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #999;
     line-height: 3.4rem;
 }
@@ -110,6 +115,7 @@ img {
 }
 .main .study h2{
     text-align: center;
+    font-size: 1.8rem;
     line-height: 8rem;
 }
 .main .study ul{
@@ -170,10 +176,12 @@ img {
 }
 .main .student h2{
     text-align: center;
+    font-size: 1.8rem;
     margin: 4rem 0;
 }
 .main .student .content{
     margin: 0 1%;
+    padding: 5% 0;
     width: 22%;
     display: inline-block;
 
@@ -182,11 +190,12 @@ img {
 .main .student .content h3{
     padding: 3rem 0;
     text-align: center;
+    font-size: 1.8rem;
 }
 .main .student .content p{
     margin: 0 10%;
     line-height: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #999;
 }
 .main .student .content .bg-one{
@@ -236,6 +245,7 @@ img {
 .main .company h2{
     margin: 8rem;
     text-align: center;
+    font-size: 1.8rem;
 }
 .main .company .pic{
     display: inline-block;
@@ -283,7 +293,9 @@ img {
     background-color: white;
 }
 .main h2{
+    padding: 4rem 0;
     text-align: center;
+    font-size: 1.8rem;
 }
 .main .links ul{
     padding: 0 10%;
