@@ -164,17 +164,49 @@ header ul .right{
 .content section ul .box2{
     font-size: 1.6rem;
 }
+
 .content section ul .box2 .left{
-    padding: 2rem 4rem;
+    padding: 2rem 1rem;
     display: inline-block;
 }
 .content section ul .box2 .left label{
     margin-right: 3rem;
 }
+.content section ul .box2 .left label input{
+    opacity: 0;
+}
+input[type=radio] + span{
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background-color: white;
+}
+input[type=radio]:checked + span{
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    border: 6px solid #1d7ad9;
+    border-radius: 50%;
+    background-color: white;
+}
 .content section ul .box2 .right{
     padding: 2rem;
     display: inline-block;
     float: right;
+}
+.content section select{
+    padding: .5rem 3rem .5rem 1rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("images/list.png") no-repeat right;
 }
 .content section ul .size{
     height: 3rem;
@@ -204,7 +236,7 @@ header ul .right{
     display: inline-block;
 }
 .content section ul .size1 .left form{
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 1rem;
 }
 .content section ul .size1 .left form label.long{
     margin: 0 2rem;
@@ -247,10 +279,7 @@ header ul .right{
     display: inline-block;
 }
 .content section ul .material-1 .left{
-    padding: 2rem 4rem;
-}
-.content section ul .material-1 .left label{
-    margin: 0 .6rem;
+    padding: 2rem 1rem;
 }
 .content section ul .material-1 .right{
     padding: 2rem;
