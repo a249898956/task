@@ -119,9 +119,10 @@ li .time{
     background: #f8fafb;
     border-top: 1px solid #e1e5e7;
 }
+#footer img{
+    width: 20%;
+}
 #footer .footer-left{
-    position: relative;
-    top: -10px;
     display: inline-block;
     text-align: center;
     width: 33%;
@@ -143,8 +144,6 @@ li .time{
     border-radius: 50%;
 }
 #footer .footer-right{
-    position: relative;
-    top: -10px;
     width: 33%;
     text-align: center;
     display: inline-block;
