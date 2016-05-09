@@ -17,6 +17,11 @@
 .content-top ul li p{
     font-size: 1.6rem;
 }
+@media screen and (max-width: 1200px){
+    .content-top ul li p{
+        text-align: center;
+    }
+}
 .content-top .efficient{
     background-image: url(images/spritesheet.png);
     background-repeat: no-repeat;
@@ -43,6 +48,11 @@
 }
 .content-top .content-top-four{
     border-left: 1px dashed #999999;
+}
+@media screen and (max-width: 1200px){
+    .content-top .content-top-four{
+        text-align: center;
+    }
 }
 .content-top .people{
     font-size: 1.8rem;
@@ -211,7 +221,6 @@
     color: black;
 }
 .friend-links ul{
-    margin: 0 5%;
     width: 100%;
 }
 .friend-links ul li{

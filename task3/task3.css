@@ -24,6 +24,9 @@ img{
     }
 }
 body{
+    overflow-x: hidden;
+}
+body{
     font-size: 62.5%;
     background-color:rgb(104,205,213)
 }
@@ -39,27 +42,29 @@ body{
     display: inline-block;
 }
 .top .back{
+    position: relative;
+    top: 3px;
     font-size: 2.6rem;
 }
 .top .back img{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 .top .back span{
     position: relative;
-    top: -2.8rem;
+    top:-25px;
 }
 .top .middle{
     position: absolute;
     left: 50%;
     margin-left: -23px;
-    top: 25px;
+    top: 18px;
     font-size: 3.4rem;
 }
 .top li.dot{
     float: right;
     margin: 0 3px;
     position: relative;
-    top: 3.2rem;
+    top: 29px;
     width: 10px;
     height: 10px;
     background-color: white;

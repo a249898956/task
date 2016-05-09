@@ -8,7 +8,7 @@ p {
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1200px) {
   html {
     font-size: 62.5%;
   }
@@ -157,6 +157,19 @@ a:hover {
   border-radius: 10px;
   font-size: 1.4rem;
   background-color: #ccc;
+}
+@media screen and (max-width: 510px) {
+  .content-top ul {
+    width: 100%;
+  }
+  .content-top ul li {
+    width: 25%;
+  }
+  .content-top p {
+    position: relative;
+    left: 50%;
+    margin-left: -10px;
+  }
 }
 .icon-jb {
   padding-top: 1.4rem;

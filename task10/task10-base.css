@@ -28,6 +28,7 @@ html{
 }
 body {
     background: #fafafa;
+    overflow-x: hidden;
     font-family: Microsoft YaHei, serif;
     font-size: 1.4rem;
     color: #999;
@@ -103,12 +104,12 @@ a:hover {
     margin-bottom: 0;
 }
 @media screen and (max-width: 767px){
-    .header ul li {
-        float: left;
-    }
     h1 {
         font-size: 3rem;
     }
+}
+.header ul li{
+    padding: 0;
 }
 .header ul li a{
     position: relative;

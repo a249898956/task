@@ -132,11 +132,13 @@ li .time{
     color: #5fc0ce;
 }
 #footer .footer-middle{
+    margin-top: 3px;
     width: 33%;
     text-align: center;
     display: inline-block;
 }
 #footer .footer-middle img{
+    width: 30%;
     background-size: cover;
     border-radius: 50%;
 }
