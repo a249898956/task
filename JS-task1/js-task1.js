@@ -3,16 +3,18 @@
  */
 var last = 0; //声明一个名为last的变量，并赋值为0
 
+setInterval("changecolor()", 1000);  //间隔1000毫秒不停地执行changecolor()
+
 function changecolor() {   //定义一个函数，名为changecolor()
 
     var color;
     var colorsnumber;
     var colorname;
     var grid = document.getElementsByClassName("block");
-    var gridnumber;
+    var gridnumber = Math.floor(Math.random() * 9);//0~8随机数*/
 
     grid[last].style.backgroundColor = "#e8830d";
-    colorsnumber = Math.floor(Math.random() * 3);//0~2随机数
+    colorsnumber = Math.floor(Math.random() * 3);//0~2随机整数
     switch (colorsnumber) {                      // switch 语句来选择要执行的多个代码块之一
         case 0:
             color = "red";
@@ -27,12 +29,10 @@ function changecolor() {   //定义一个函数，名为changecolor()
             colorname = "蓝色";
             break;
     }
-    gridnumber = Math.floor(Math.random() * 9);//0~8随机数*/
     grid[gridnumber].style.backgroundColor = color;
     last = gridnumber;
     console.log("格子" + (gridnumber + 1) + "变成了" + colorname);
 }
-setInterval("changecolor()", 1000);  //间隔1000毫秒不停地执行changecolor()
 
 
 
