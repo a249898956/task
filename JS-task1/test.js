@@ -10,7 +10,7 @@ function randomcolor() {                  //定义一个函数，名为randomcol
     var box = document.getElementById("box").children;//box的值为Id名box下的子元素
     var boxnumber = Math.floor(Math.random() * 9); //0~8随机整数，random为随机数，包括小数，floor是向下取整
 
-    box[last].style.background="#E8830D";
+    box[last].style.background ="#E8830D";
     switch(colornumber){ // switch 语句来选择要执行的多个代码块之一
         case 0:
             color = "blue";
