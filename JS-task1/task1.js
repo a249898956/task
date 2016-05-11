@@ -10,7 +10,7 @@ function randomcolor(){
     var box = document.getElementById("box").children;
     var boxNumber = Math.floor(Math.random() *9);
 
-    box[last].style.background ="#E8830D";
+    box[last].style.backgroundColor ="#E8830D";
 
     switch (colorNumber){
         case 0:
