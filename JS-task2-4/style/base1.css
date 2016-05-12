@@ -13,12 +13,21 @@ p {
     min-width: 320px;
     margin: 0 auto;
 }
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 35%;
+    }
+}
 body {
     background-color: #f0f0f0;
     overflow-x: hidden;
     font-family: Microsoft YaHei, serif;
     font-size: 1.4rem;
-    color: #999;
 }
 h1 {
     font-size: 3.6rem;
