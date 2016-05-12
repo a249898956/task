@@ -52,6 +52,7 @@ ul.lastOne img {
 .content .version {
   margin: 3% 10%;
   padding: 2rem 0;
+  display: block;
   font-size: 3.2rem;
   color: white;
   background-color: #69d1e9;
