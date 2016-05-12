@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+  height: 6rem;
+  line-height: 6rem;
+  background-color: #29bde0;
+}
+header div {
+  display: inline-block;
+  vertical-align: middle;
+}
+header img {
+  width: 100%;
+  max-width: 100%;
+}
+header .back {
+  margin-left: 1.5rem;
+  float: left;
+}
+header .middle {
+  font-size: 3.4rem;
+  color: white;
+}
+header .help {
+  margin-right: 1.5rem;
+  float: right;
+}
