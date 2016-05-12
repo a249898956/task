@@ -1,0 +1,20 @@
+header.navbar-default {
+  text-align: center;
+  height: 50px;
+  background-color: #29bde0;
+}
+header.navbar-default .navbar-toggle {
+  float: left;
+  border: none;
+}
+header.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+}

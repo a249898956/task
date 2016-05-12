@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*bootstrap默认p元素margin: 0 0 10px; 上面的*无法覆盖*/
+p {
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+body {
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    font-family: Microsoft YaHei, serif;
+    font-size: 1.4rem;
+    color: #999;
+}
+h1 {
+    font-size: 3.6rem;
+    color: #fff;
+}
+h2 {
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+h6 {
+    font-size: 1rem;
+    color: #fff;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}

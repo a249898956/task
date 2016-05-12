@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+img{
+    width: 60%;
+    max-width: 60%;
+}
+body{
+    margin: 0 auto;
+    max-width: 6400px;
+    min-width: 320px;
+    font-size: 62.5%;
+    background-color: #29bde0;
+}
+ul{
+    margin-top: 35%;
+}
+ul li{
+    margin-top: 10%;
+    list-style: none;
+    font-size: 2rem;
+    font-family: "Adobe 黑体 Std R";
+    font-weight: 900;
+    color: white;
+}
