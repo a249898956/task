@@ -51,20 +51,73 @@ header .help {
   background-color: #fbfbfb;
   border-left: 1px solid #d9d9d9;
 }
+.content .top .right .people {
+  width: 100%;
+  font-size: 0;
+  color: #a1a1a1;
+}
+.content .top .right .people li {
+  width: 50%;
+  padding: 1rem 0;
+  font-size: 2.6rem;
+}
+.content .top .right .people .orange {
+  margin-right: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fab344;
+}
+.content .top .right .people .green {
+  margin-right: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #29bde0;
+}
 .content .top .right .click {
   position: relative;
-  bottom: -200px;
+  bottom: -26px;
+  width: 100%;
   height: 4rem;
   line-height: 4rem;
   display: block;
+  background-color: #fbfbfb;
   color: #29bde0;
   font-size: 2.8rem;
+  border: none;
   border-top: 1px solid #d9d9d9;
 }
 .content .top .right .click img {
   margin-left: 5px;
   width: 4%;
   max-width: 100%;
+}
+.content .middle {
+  padding: 1% 0;
+  color: #d7d7d7;
+  font-size: 2.6rem;
+  background-color: white;
+}
+.content .middle li {
+  margin: 4%;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.content .bottom {
+  font-size: 2.8rem;
+  background-color: white;
+}
+.content .bottom li {
+  margin: 0 4%;
+  padding: 3% 0;
+}
+.content .bottom span {
+  margin: 0 2%;
+  padding: 1%;
+  color: #fab344;
+  background-color: #f4f5f5;
 }
 @media screen and (min-width: 481px) {
   .content .top .left {
@@ -76,6 +129,26 @@ header .help {
     height: 350px;
   }
   .content .top .right .click {
-    bottom: -302px;
+    bottom: -90px;
   }
+}
+@media screen and (min-width: 641px) {
+  .content .top .right {
+    height: 350px;
+  }
+  .content .top .right .click {
+    bottom: -59px;
+  }
+}
+.foot {
+  padding: 3%;
+  padding-top: 0;
+}
+.foot button {
+  padding: 2% 0;
+  width: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: #fab344;
+  border: none;
 }
