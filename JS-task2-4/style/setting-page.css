@@ -24,3 +24,58 @@ header .help {
   margin-right: 1.5rem;
   float: right;
 }
+.content {
+  padding: 3%;
+}
+.content .top {
+  font-size: 0;
+}
+.content .top li {
+  display: inline-block;
+}
+.content .top .left {
+  width: 15%;
+  height: 250px;
+  font-size: 3.4rem;
+  background-color: #fff;
+}
+.content .top .left span {
+  display: block;
+  margin-top: 5rem;
+}
+.content .top .right {
+  width: 85%;
+  height: 250px;
+  vertical-align: top;
+  font-size: 2.6rem;
+  background-color: #fbfbfb;
+  border-left: 1px solid #d9d9d9;
+}
+.content .top .right .click {
+  position: relative;
+  bottom: -200px;
+  height: 4rem;
+  line-height: 4rem;
+  display: block;
+  color: #29bde0;
+  font-size: 2.8rem;
+  border-top: 1px solid #d9d9d9;
+}
+.content .top .right .click img {
+  margin-left: 5px;
+  width: 4%;
+  max-width: 100%;
+}
+@media screen and (min-width: 481px) {
+  .content .top .left {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .content .top .right {
+    height: 350px;
+  }
+  .content .top .right .click {
+    bottom: -302px;
+  }
+}
