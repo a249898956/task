@@ -1,0 +1,50 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: "Microsoft YaHei", serif;
+    font-size: 3.2rem;
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    background: #29bde0;
+    border-bottom: 1px solid #74d4eb
+}
+
