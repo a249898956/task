@@ -3,22 +3,22 @@ var TotalArrStr;
 
 function setting() {
     TotalNum = parseInt(document.getElementById("totalnum").value);//把获取的字符串转化为数字
-    if (isNaN(TotalNum) || TotalNum < 6 || TotalNum > 18)//限制用户输入范围
-        alert("请输入6-18之间的数字");
+    if (isNaN(TotalNum) || TotalNum < 6 || TotalNum > 18)//限制用户输入范围，isNaN(a)用于检查a是否是非数字值,非数值时，则返回true
+        alert("请输入6-18之间的数字");//如果TotalNum为非数值或小于6或大于18，则弹出窗口
     else {
         distribute();
     }
 }
 
 function distribute() {
-    var detail = "";
+    var detail = "";//定义一个空字符串
     var KillerNum;
-    var TotalArr = [];
+    var TotalArr = [];//[ ],中括号，表示一个数组，也可以理解为一个数组对象。
     var n;
     var i;
 
     KillerNum = Math.floor(TotalNum / 4);
-    if (TotalNum === 8)
+    if (TotalNum === 8)//==和===区别详见日报和JS收藏夹
         KillerNum = 1;
     for (n = 0; n < KillerNum; n++) {
         TotalArr[n] = "杀手";
