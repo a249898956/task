@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.wrap {
+    background: #efefef;
+}
+
+.header-left {
+    position: absolute;
+    top: 0.5%;
+    left: 3%;
+
+}
+
+.title {
+    text-align: center;
+    line-height: 5.4rem;
+    font-size: 3.4rem;
+    color: #fff;
+    border-bottom: 1px solid #74d4eb;
+}
+
+.header-right {
+    position: absolute;
+    top: 0.5%;
+    right: 3%;
+
+}
+
+.main {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.main-top {
+    overflow: hidden;
+    width: 100%;
+    height: 45rem;
+    margin: 1rem auto;
+}
+
+.main-top-left {
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 0 5%;
+    height: 100%;
+    font-size: 3.6rem;
+    color: #444;
+    background: #fff;
+    border-right: 3px solid #d9d9d9;
+}
+
+.main-top-left p {
+    padding-top: 13rem;
+}
+
+.main-top-right {
+    float: left;
+    box-sizing: border-box;
+    width: 80%;
+    background: #fbfbfb;
+}
+
+.main-top-right-top {
+    float: left;
+    width: 100%;
+    height: 40rem;
+    padding-left: 2rem;
+    font-size: 2.4rem;
+    text-align: left;
+    border-bottom: 1px solid #D9D9D9;
+    overflow-y: auto;
+
+}
+
+.main-top-right-top input {
+    width: 80%;
+    height: 80%;
+
+}
+
+.main-top-right-bottom {
+    float: left;
+    width: 100%;
+    padding: 1rem;
+    height: 5rem;
+    font-size: 2.8rem;
+    color: #29bde0;
+    background: #fbfbfb;
+    border: none;
+}
+
+.main-middle {
+    overflow: hidden;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 28px;
+    background: #fff;
+}
+
+.list {
+    padding: 1rem;
+}
+
+.list input {
+    width: 100%;
+    font-size: 2.8rem;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.main-bottom {
+    overflow: hidden;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 28px;
+    font-size: 2.8rem;
+    text-align: left;
+    color: #444;
+    background: #fff;
+}
+
+.main-bottom input {
+    font-size: 2.8rem;
+    font-family: "Microsoft YaHei", serif;
+}
+
+.main-bottom-top {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.main-bottom-top input {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-weight: normal;
+    text-align: center;
+    color: #fab344;
+    background: #f4f5f5;
+    border: none;
+}
+
+.main-bottom-bottom {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    overflow: hidden;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.footer button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 4.0rem;
+    color: #fff;
+    background: #fab344;
+}

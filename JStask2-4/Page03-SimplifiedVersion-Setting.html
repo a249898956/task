@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="Page03-SimplifiedVersion-Setting.css">
+    <link rel="shortcut icon" href="images/bitbug_favicon.ico">
+    <title>参数设置</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <div class="header-left">
+            <a href="Page02-SelectVersion.html">
+            <img src="images/icon-arrow-left.png">
+            </a>
+        </div>
+        <div class="header-middle">
+            <div class="title">参数设置</div>
+        </div>
+        <div class="header-right">
+            <img src="images/icon-question2.png">
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-top">
+            <div class="main-top-left">
+                <p>玩家配比</p>
+            </div>
+            <div class="main-top-right">
+                <div class="main-top-right-top" id="detail">
+                </div>
+                <button type="button" class="main-top-right-bottom" onclick="setting()">
+                    点击设置
+                    <img src="images/icon-pen.png">
+                </button>
+
+            </div>
+        </div>
+        <div class="main-middle">
+            <form>
+                <ul class="list">
+                    <li>
+                        <label for="civilian"> </label>
+                        <input type="text" name="word" id="civilian" value="" placeholder="水民词组">
+                    </li>
+                    <li>
+                        <label for="ghost"> </label>
+                        <input type="text" name="word" id="ghost" value="" placeholder="幽灵词组">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="main-bottom">
+            <div class="main-bottom-top">
+                <label for="totalnum">
+                    <span>玩家人数</span>
+                    <input name="players" id="totalnum" type="text" value="6">
+                    <span>人</span>
+                </label>
+            </div>
+            <div class="main-bottom-bottom">
+                <img src="images/setting-number.png">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button type="submit" onclick="start()">去发牌</button>
+    </div>
+</div>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="Page03-SimplifiedVersion-Setting.js"></script>
+</body>
+</html>
