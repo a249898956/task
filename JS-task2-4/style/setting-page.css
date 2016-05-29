@@ -113,11 +113,21 @@ header .help {
   margin: 0 4%;
   padding: 3% 0;
 }
+.content .bottom label {
+  width: 100%;
+  font-weight: 500;
+}
+.content .bottom input {
+  display: inline-block;
+  width: 4rem;
+  background-color: #f4f5f5;
+  color: #fab344;
+  border: none;
+}
 .content .bottom span {
+  display: inline-block;
   margin: 0 2%;
   padding: 1%;
-  color: #fab344;
-  background-color: #f4f5f5;
 }
 @media screen and (min-width: 481px) {
   .content .top .left {
